@@ -41,7 +41,6 @@ sample_dependencies = []
 sample_dependencies += dependency('doca-common')
 # Additional DOCA library that is relevant for this sample
 sample_dependencies += dependency('doca-dma')
-sample_dependencies += dependency('doca-rdma')
 # Utility DOCA library for executables
 sample_dependencies += dependency('doca-argp')
 
@@ -51,7 +50,6 @@ sample_srcs = [
 	# Main function for the sample's executable
 	SAMPLE_NAME + '_main.c',
 	# Common code for the DOCA library samples
-	'../rdma_common.c',
 	# Common code for all DOCA samples
 	'../../common.c',
 	# Common code for all DOCA applications

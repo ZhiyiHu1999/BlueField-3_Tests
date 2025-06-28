@@ -167,7 +167,7 @@ doca_error_t allocate_rdma_resources(struct rdma_config *cfg,
 				     const uint32_t mmap_permissions,
 				     const uint32_t rdma_permissions,
 				     task_check func,
-				     struct graph_sample_state *state);
+				     struct rdma_resources *resources);
 
 /*
  * Destroy DOCA RDMA resources

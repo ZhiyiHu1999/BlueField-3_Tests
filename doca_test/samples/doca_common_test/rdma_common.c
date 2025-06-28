@@ -759,14 +759,14 @@ doca_error_t allocate_rdma_resources(struct rdma_config *cfg,
 				     const uint32_t mmap_permissions,
 				     const uint32_t rdma_permissions,
 				     task_check func,
-				     struct graph_sample_state *state)
+				     struct rdma_resources *resources)
 {
 	doca_error_t result, tmp_result;
 
-	state->cfg = cfg;
-	state->first_encountered_error = DOCA_SUCCESS;
-	state->run_pe_progress = true;
-	state->num_remaining_tasks = 0;
+	resources->cfg = cfg;
+	resources->first_encountered_error = DOCA_SUCCESS;
+	resources->run_pe_progress = true;
+	resources->num_remaining_tasks = 0;
 
 	/* Check configuration correctness, for now, DC is only supported for out-of-band single connection sample */
 	if (((cfg->num_connections > 1) || (cfg->use_rdma_cm == true)) &&
@@ -777,54 +777,54 @@ doca_error_t allocate_rdma_resources(struct rdma_config *cfg,
 	}
 
 	/* Open DOCA device */
-	result = open_doca_device(cfg->device_name, func, &(state->doca_device));
+	result = open_doca_device(cfg->device_name, func, &(resources->doca_device));
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to open DOCA device: %s", doca_error_get_descr(result));
 		return result;
 	}
 
 	/* Allocate memory for memory range */
-	state->mmap_memrange = calloc(MEM_RANGE_LEN, sizeof(*state->mmap_memrange));
-	if (state->mmap_memrange == NULL) {
+	resources->mmap_memrange = calloc(MEM_RANGE_LEN, sizeof(*resources->mmap_memrange));
+	if (resources->mmap_memrange == NULL) {
 		DOCA_LOG_ERR("Failed to allocate memory for mmap_memrange: %s", doca_error_get_descr(result));
 		result = DOCA_ERROR_NO_MEMORY;
 		goto close_doca_dev;
 	}
 
 	/* Create mmap with allocated memory */
-	result = create_local_mmap(&(state->mmap),
+	result = create_local_mmap(&(resources->mmap),
 				   mmap_permissions,
-				   (void *)state->mmap_memrange,
+				   (void *)resources->mmap_memrange,
 				   MEM_RANGE_LEN,
-				   state->doca_device);
+				   resources->doca_device);
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to create DOCA mmap: %s", doca_error_get_descr(result));
 		goto free_memrange;
 	}
 
-	result = doca_pe_create(&(state->pe));
+	result = doca_pe_create(&(resources->pe));
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to set permissions to DOCA RDMA: %s", doca_error_get_descr(result));
 		goto destroy_doca_mmap;
 	}
 
 	/* Create DOCA RDMA instance */
-	result = doca_rdma_create(state->doca_device, &(state->rdma));
+	result = doca_rdma_create(resources->doca_device, &(resources->rdma));
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to create DOCA RDMA: %s", doca_error_get_descr(result));
 		goto destroy_pe;
 	}
 
 	/* Convert DOCA RDMA to general DOCA context */
-	state->rdma_ctx = doca_rdma_as_ctx(state->rdma);
-	if (state->rdma_ctx == NULL) {
+	resources->rdma_ctx = doca_rdma_as_ctx(resources->rdma);
+	if (resources->rdma_ctx == NULL) {
 		result = DOCA_ERROR_UNEXPECTED;
 		DOCA_LOG_ERR("Failed to convert DOCA RDMA to DOCA context: %s", doca_error_get_descr(result));
 		goto destroy_doca_rdma;
 	}
 
 	/* Set permissions to DOCA RDMA */
-	result = doca_rdma_set_permissions(state->rdma, rdma_permissions);
+	result = doca_rdma_set_permissions(resources->rdma, rdma_permissions);
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to set permissions to DOCA RDMA: %s", doca_error_get_descr(result));
 		goto destroy_doca_rdma;
@@ -833,7 +833,7 @@ doca_error_t allocate_rdma_resources(struct rdma_config *cfg,
 	/* Set gid_index to DOCA RDMA if it's provided */
 	if (cfg->is_gid_index_set) {
 		/* Set gid_index to DOCA RDMA */
-		result = doca_rdma_set_gid_index(state->rdma, cfg->gid_index);
+		result = doca_rdma_set_gid_index(resources->rdma, cfg->gid_index);
 		if (result != DOCA_SUCCESS) {
 			DOCA_LOG_ERR("Failed to set gid_index to DOCA RDMA: %s", doca_error_get_descr(result));
 			goto destroy_doca_rdma;
@@ -841,20 +841,20 @@ doca_error_t allocate_rdma_resources(struct rdma_config *cfg,
 	}
 
 	/* Set num_connections to DOCA RDMA */
-	result = doca_rdma_set_max_num_connections(state->rdma, cfg->num_connections);
+	result = doca_rdma_set_max_num_connections(resources->rdma, cfg->num_connections);
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to set max_num_connections to DOCA RDMA: %s", doca_error_get_descr(result));
 		goto destroy_doca_rdma;
 	}
 
 	/* Set transport type */
-	result = doca_rdma_set_transport_type(state->rdma, cfg->transport_type);
+	result = doca_rdma_set_transport_type(resources->rdma, cfg->transport_type);
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to set RDMA transport type: %s", doca_error_get_descr(result));
 		goto destroy_doca_rdma;
 	}
 
-	result = doca_pe_connect_ctx(state->pe, state->rdma_ctx);
+	result = doca_pe_connect_ctx(resources->pe, resources->rdma_ctx);
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Unable to set progress engine for RDMA: %s", doca_error_get_descr(result));
 		goto destroy_doca_rdma;
@@ -864,31 +864,31 @@ doca_error_t allocate_rdma_resources(struct rdma_config *cfg,
 
 destroy_doca_rdma:
 	/* Destroy DOCA RDMA */
-	tmp_result = doca_rdma_destroy(state->rdma);
+	tmp_result = doca_rdma_destroy(resources->rdma);
 	if (tmp_result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to destroy DOCA RDMA: %s", doca_error_get_descr(tmp_result));
 		DOCA_ERROR_PROPAGATE(result, tmp_result);
 	}
 destroy_pe:
 	/* Destroy DOCA progress engine */
-	tmp_result = doca_pe_destroy(state->pe);
+	tmp_result = doca_pe_destroy(resources->pe);
 	if (tmp_result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to destroy DOCA progress engine: %s", doca_error_get_descr(tmp_result));
 		DOCA_ERROR_PROPAGATE(result, tmp_result);
 	}
 destroy_doca_mmap:
 	/* Destroy DOCA mmap */
-	tmp_result = doca_mmap_destroy(state->mmap);
+	tmp_result = doca_mmap_destroy(resources->mmap);
 	if (tmp_result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to destroy DOCA mmap: %s", doca_error_get_descr(tmp_result));
 		DOCA_ERROR_PROPAGATE(result, tmp_result);
 	}
 free_memrange:
 	/* Free DOCA mmap memory range */
-	free(state->mmap_memrange);
+	free(resources->mmap_memrange);
 close_doca_dev:
 	/* Close DOCA device */
-	tmp_result = doca_dev_close(state->doca_device);
+	tmp_result = doca_dev_close(resources->doca_device);
 	if (tmp_result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to close DOCA device: %s", doca_error_get_descr(tmp_result));
 		DOCA_ERROR_PROPAGATE(result, tmp_result);

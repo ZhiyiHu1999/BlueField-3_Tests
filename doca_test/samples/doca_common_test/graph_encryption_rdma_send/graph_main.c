@@ -28,13 +28,10 @@
 #include <doca_error.h>
 #include <doca_log.h>
 
-#include <doca_argp.h>
-#include "rdma_common.h"
-
 DOCA_LOG_REGISTER(GRAPH::MAIN);
 
 /* Sample's Logic */
-doca_error_t run_graph_sample(struct rdma_config *cfg);
+doca_error_t run_graph_sample(void);
 
 /*
  * Sample main function
@@ -48,7 +45,6 @@ int main(int argc, char *argv[])
 	(void)(argc);
 	(void)(argv);
 
-	struct rdma_config cfg;
 	doca_error_t result;
 	struct doca_log_backend *sdk_log;
 	int exit_status = EXIT_FAILURE;
@@ -67,32 +63,15 @@ int main(int argc, char *argv[])
 		goto sample_exit;
 
 	DOCA_LOG_INFO("Starting the sample");
-	result = run_graph_sample(cfg);
+
+	/* Run the sample's core function */
+	result = run_graph_sample();
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("run_graph_sample() encountered an error: %s", doca_error_get_descr(result));
 		goto sample_exit;
 	}
 
 	exit_status = EXIT_SUCCESS;
-
-stop_buf_inventory:
-	tmp_result = doca_buf_inventory_stop(resources.buf_inventory);
-	if (tmp_result != DOCA_SUCCESS) {
-		DOCA_LOG_ERR("Failed to stop DOCA buffer inventory: %s", doca_error_get_descr(tmp_result));
-		DOCA_ERROR_PROPAGATE(result, tmp_result);
-	}
-destroy_buf_inventory:
-	tmp_result = doca_buf_inventory_destroy(resources.buf_inventory);
-	if (tmp_result != DOCA_SUCCESS) {
-		DOCA_LOG_ERR("Failed to destroy DOCA buffer inventory: %s", doca_error_get_descr(tmp_result));
-		DOCA_ERROR_PROPAGATE(result, tmp_result);
-	}
-destroy_resources:
-	tmp_result = destroy_rdma_resources(&resources, cfg);
-	if (tmp_result != DOCA_SUCCESS) {
-		DOCA_LOG_ERR("Failed to destroy DOCA RDMA resources: %s", doca_error_get_descr(tmp_result));
-		DOCA_ERROR_PROPAGATE(result, tmp_result);
-	}
 
 sample_exit:
 	if (exit_status == EXIT_SUCCESS)
