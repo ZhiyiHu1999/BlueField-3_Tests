@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_comch
+Description: DOCA (doca-comch) pkg-config file.
+Version: 2.10.0087
+Requires: doca-comch-lib
+Requires.private: doca-common, libibverbs, libmlx5
+Libs.private: -L${prefix}/lib/aarch64-linux-gnu -l:libdoca_comch.a -Wl,--as-needed
+Cflags: -I${includedir}

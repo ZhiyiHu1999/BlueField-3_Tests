@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_erasure_coding
+Description: DOCA (doca-erasure-coding) pkg-config file.
+Version: 2.10.0087
+Requires: doca-erasure-coding-lib
+Requires.private: doca-common
+Libs.private: -L${prefix}/lib/aarch64-linux-gnu -l:libdoca_erasure_coding.a -Wl,--as-needed -pthread
+Cflags: -I${includedir}

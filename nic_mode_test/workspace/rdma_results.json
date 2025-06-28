@@ -1,0 +1,906 @@
+{
+  "bandwidth": [
+    {
+      "type": "ib_send_bw",
+      "bytes": 64,
+      "iterations": 1000,
+      "bw_peak": 6.81,
+      "bw_avg": 5.81,
+      "msg_rate": 0.095248
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 128,
+      "iterations": 1000,
+      "bw_peak": 24.92,
+      "bw_avg": 21.85,
+      "msg_rate": 0.178988
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 256,
+      "iterations": 1000,
+      "bw_peak": 49.43,
+      "bw_avg": 43.86,
+      "msg_rate": 0.179641
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 512,
+      "iterations": 1000,
+      "bw_peak": 96.7,
+      "bw_avg": 85.43,
+      "msg_rate": 0.174959
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 1024,
+      "iterations": 1000,
+      "bw_peak": 191.87,
+      "bw_avg": 169.09,
+      "msg_rate": 0.173148
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 2048,
+      "iterations": 1000,
+      "bw_peak": 369.91,
+      "bw_avg": 330.36,
+      "msg_rate": 0.169142
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 4096,
+      "iterations": 1000,
+      "bw_peak": 720.67,
+      "bw_avg": 642.7,
+      "msg_rate": 0.164531
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 8192,
+      "iterations": 1000,
+      "bw_peak": 1372.82,
+      "bw_avg": 1237.48,
+      "msg_rate": 0.158398
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 16384,
+      "iterations": 1000,
+      "bw_peak": 2527.63,
+      "bw_avg": 2180.32,
+      "msg_rate": 0.13954
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 32768,
+      "iterations": 1000,
+      "bw_peak": 4104.03,
+      "bw_avg": 3694.91,
+      "msg_rate": 0.118237
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 65536,
+      "iterations": 1000,
+      "bw_peak": 5935.45,
+      "bw_avg": 5485.83,
+      "msg_rate": 0.087773
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 131072,
+      "iterations": 1000,
+      "bw_peak": 7734.78,
+      "bw_avg": 7209.43,
+      "msg_rate": 0.057675
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 262144,
+      "iterations": 1000,
+      "bw_peak": 9106.82,
+      "bw_avg": 8561.52,
+      "msg_rate": 0.034246
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 524288,
+      "iterations": 1000,
+      "bw_peak": 9866.55,
+      "bw_avg": 9698.8,
+      "msg_rate": 0.019398
+    },
+    {
+      "type": "ib_send_bw",
+      "bytes": 1048576,
+      "iterations": 1000,
+      "bw_peak": 10457.94,
+      "bw_avg": 10369.53,
+      "msg_rate": 0.01037
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 64,
+      "iterations": 1000,
+      "bw_peak": 12.38,
+      "bw_avg": 11.14,
+      "msg_rate": 0.182457
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 128,
+      "iterations": 1000,
+      "bw_peak": 24.13,
+      "bw_avg": 21.84,
+      "msg_rate": 0.178952
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 256,
+      "iterations": 1000,
+      "bw_peak": 48.06,
+      "bw_avg": 43.4,
+      "msg_rate": 0.17777
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 512,
+      "iterations": 1000,
+      "bw_peak": 94.63,
+      "bw_avg": 84.95,
+      "msg_rate": 0.173969
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 1024,
+      "iterations": 1000,
+      "bw_peak": 188.17,
+      "bw_avg": 167.34,
+      "msg_rate": 0.171354
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 2048,
+      "iterations": 1000,
+      "bw_peak": 369.91,
+      "bw_avg": 331.98,
+      "msg_rate": 0.169971
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 4096,
+      "iterations": 1000,
+      "bw_peak": 719.34,
+      "bw_avg": 643.12,
+      "msg_rate": 0.16464
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 8192,
+      "iterations": 1000,
+      "bw_peak": 1323.87,
+      "bw_avg": 1166.56,
+      "msg_rate": 0.14932
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 16384,
+      "iterations": 1000,
+      "bw_peak": 2483.33,
+      "bw_avg": 2151.44,
+      "msg_rate": 0.137692
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 32768,
+      "iterations": 1000,
+      "bw_peak": 4029.78,
+      "bw_avg": 3590.48,
+      "msg_rate": 0.114896
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 65536,
+      "iterations": 1000,
+      "bw_peak": 5896.18,
+      "bw_avg": 5284.55,
+      "msg_rate": 0.084553
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 131072,
+      "iterations": 1000,
+      "bw_peak": 7534.02,
+      "bw_avg": 6901.92,
+      "msg_rate": 0.055215
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 262144,
+      "iterations": 1000,
+      "bw_peak": 8595.43,
+      "bw_avg": 8150.73,
+      "msg_rate": 0.032603
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 524288,
+      "iterations": 1000,
+      "bw_peak": 9476.97,
+      "bw_avg": 9111.78,
+      "msg_rate": 0.018224
+    },
+    {
+      "type": "ib_read_bw",
+      "bytes": 1048576,
+      "iterations": 1000,
+      "bw_peak": 9956.12,
+      "bw_avg": 9858.7,
+      "msg_rate": 0.009859
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 64,
+      "iterations": 5000,
+      "bw_peak": 12.69,
+      "bw_avg": 11.49,
+      "msg_rate": 0.188315
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 128,
+      "iterations": 5000,
+      "bw_peak": 24.56,
+      "bw_avg": 22.12,
+      "msg_rate": 0.181193
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 256,
+      "iterations": 5000,
+      "bw_peak": 48.93,
+      "bw_avg": 44.36,
+      "msg_rate": 0.181679
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 512,
+      "iterations": 5000,
+      "bw_peak": 98.65,
+      "bw_avg": 89.22,
+      "msg_rate": 0.182721
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 1024,
+      "iterations": 5000,
+      "bw_peak": 194.16,
+      "bw_avg": 174.71,
+      "msg_rate": 0.178901
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 2048,
+      "iterations": 5000,
+      "bw_peak": 374.17,
+      "bw_avg": 335.42,
+      "msg_rate": 0.171737
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 4096,
+      "iterations": 5000,
+      "bw_peak": 732.87,
+      "bw_avg": 655.68,
+      "msg_rate": 0.167854
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 8192,
+      "iterations": 5000,
+      "bw_peak": 1422.93,
+      "bw_avg": 1245.36,
+      "msg_rate": 0.159406
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 16384,
+      "iterations": 5000,
+      "bw_peak": 2507.3,
+      "bw_avg": 2261.24,
+      "msg_rate": 0.144719
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 32768,
+      "iterations": 5000,
+      "bw_peak": 4125.72,
+      "bw_avg": 3724.48,
+      "msg_rate": 0.119183
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 65536,
+      "iterations": 5000,
+      "bw_peak": 5969.53,
+      "bw_avg": 5526.61,
+      "msg_rate": 0.088426
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 131072,
+      "iterations": 5000,
+      "bw_peak": 7710.92,
+      "bw_avg": 7211.79,
+      "msg_rate": 0.057694
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 262144,
+      "iterations": 5000,
+      "bw_peak": 9146.78,
+      "bw_avg": 8622.1,
+      "msg_rate": 0.034488
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 524288,
+      "iterations": 5000,
+      "bw_peak": 9949.16,
+      "bw_avg": 9783.14,
+      "msg_rate": 0.019566
+    },
+    {
+      "type": "ib_write_bw",
+      "bytes": 1048576,
+      "iterations": 5000,
+      "bw_peak": 10465.61,
+      "bw_avg": 10380.7,
+      "msg_rate": 0.010381
+    }
+  ],
+  "latency": [
+    {
+      "type": "ib_send_lat",
+      "bytes": 64,
+      "iterations": 1000,
+      "t_min": 2.59,
+      "t_max": 7.65,
+      "t_typical": 2.68,
+      "t_avg": 2.81,
+      "t_stdev": 0.15,
+      "t_99": 3.65,
+      "t_999": 7.65
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 128,
+      "iterations": 1000,
+      "t_min": 2.62,
+      "t_max": 6.81,
+      "t_typical": 2.72,
+      "t_avg": 2.87,
+      "t_stdev": 0.26,
+      "t_99": 4.22,
+      "t_999": 6.81
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 256,
+      "iterations": 1000,
+      "t_min": 3.31,
+      "t_max": 8.39,
+      "t_typical": 3.38,
+      "t_avg": 3.45,
+      "t_stdev": 0.23,
+      "t_99": 4.44,
+      "t_999": 8.39
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 512,
+      "iterations": 1000,
+      "t_min": 3.38,
+      "t_max": 8.37,
+      "t_typical": 3.43,
+      "t_avg": 3.54,
+      "t_stdev": 0.24,
+      "t_99": 4.42,
+      "t_999": 8.37
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 1024,
+      "iterations": 1000,
+      "t_min": 3.5,
+      "t_max": 9.16,
+      "t_typical": 3.55,
+      "t_avg": 3.62,
+      "t_stdev": 0.24,
+      "t_99": 4.53,
+      "t_999": 9.16
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 2048,
+      "iterations": 1000,
+      "t_min": 3.57,
+      "t_max": 9.66,
+      "t_typical": 4.05,
+      "t_avg": 3.98,
+      "t_stdev": 0.2,
+      "t_99": 5.17,
+      "t_999": 9.66
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 4096,
+      "iterations": 1000,
+      "t_min": 3.74,
+      "t_max": 10.82,
+      "t_typical": 3.83,
+      "t_avg": 4.23,
+      "t_stdev": 0.39,
+      "t_99": 5.82,
+      "t_999": 10.82
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 8192,
+      "iterations": 1000,
+      "t_min": 3.91,
+      "t_max": 9.73,
+      "t_typical": 4.64,
+      "t_avg": 4.58,
+      "t_stdev": 0.23,
+      "t_99": 5.23,
+      "t_999": 9.73
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 16384,
+      "iterations": 1000,
+      "t_min": 4.57,
+      "t_max": 9.86,
+      "t_typical": 4.9,
+      "t_avg": 5.13,
+      "t_stdev": 0.32,
+      "t_99": 6.97,
+      "t_999": 9.86
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 32768,
+      "iterations": 1000,
+      "t_min": 5.99,
+      "t_max": 9.9,
+      "t_typical": 6.5,
+      "t_avg": 6.45,
+      "t_stdev": 0.1,
+      "t_99": 7.48,
+      "t_999": 9.9
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 65536,
+      "iterations": 1000,
+      "t_min": 8.77,
+      "t_max": 13.99,
+      "t_typical": 9.32,
+      "t_avg": 9.37,
+      "t_stdev": 0.18,
+      "t_99": 10.74,
+      "t_999": 13.99
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 131072,
+      "iterations": 1000,
+      "t_min": 14.84,
+      "t_max": 20.72,
+      "t_typical": 15.19,
+      "t_avg": 15.28,
+      "t_stdev": 0.21,
+      "t_99": 16.32,
+      "t_999": 20.72
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 262144,
+      "iterations": 1000,
+      "t_min": 26.29,
+      "t_max": 31.58,
+      "t_typical": 26.95,
+      "t_avg": 26.89,
+      "t_stdev": 0.22,
+      "t_99": 27.87,
+      "t_999": 31.58
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 524288,
+      "iterations": 1000,
+      "t_min": 49.61,
+      "t_max": 54.11,
+      "t_typical": 50.05,
+      "t_avg": 50.04,
+      "t_stdev": 0.04,
+      "t_99": 50.25,
+      "t_999": 54.11
+    },
+    {
+      "type": "ib_send_lat",
+      "bytes": 1048576,
+      "iterations": 1000,
+      "t_min": 94.92,
+      "t_max": 99.85,
+      "t_typical": 94.99,
+      "t_avg": 95.08,
+      "t_stdev": 0.23,
+      "t_99": 96.36,
+      "t_999": 99.85
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 64,
+      "iterations": 1000,
+      "t_min": 5.03,
+      "t_max": 13.13,
+      "t_typical": 5.08,
+      "t_avg": 5.5,
+      "t_stdev": 0.4,
+      "t_99": 7.02,
+      "t_999": 13.13
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 128,
+      "iterations": 1000,
+      "t_min": 5.05,
+      "t_max": 12.61,
+      "t_typical": 5.1,
+      "t_avg": 5.53,
+      "t_stdev": 0.39,
+      "t_99": 7.12,
+      "t_999": 12.61
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 256,
+      "iterations": 1000,
+      "t_min": 5.14,
+      "t_max": 10.72,
+      "t_typical": 5.18,
+      "t_avg": 5.62,
+      "t_stdev": 0.42,
+      "t_99": 7.41,
+      "t_999": 10.72
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 512,
+      "iterations": 1000,
+      "t_min": 5.17,
+      "t_max": 11.56,
+      "t_typical": 5.25,
+      "t_avg": 5.71,
+      "t_stdev": 0.46,
+      "t_99": 7.29,
+      "t_999": 11.56
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 1024,
+      "iterations": 1000,
+      "t_min": 5.31,
+      "t_max": 12.81,
+      "t_typical": 5.35,
+      "t_avg": 5.81,
+      "t_stdev": 0.74,
+      "t_99": 9.13,
+      "t_999": 12.81
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 2048,
+      "iterations": 1000,
+      "t_min": 5.31,
+      "t_max": 13.83,
+      "t_typical": 5.36,
+      "t_avg": 5.86,
+      "t_stdev": 0.48,
+      "t_99": 7.41,
+      "t_999": 13.83
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 4096,
+      "iterations": 1000,
+      "t_min": 5.45,
+      "t_max": 15.95,
+      "t_typical": 5.48,
+      "t_avg": 6.02,
+      "t_stdev": 0.76,
+      "t_99": 9.24,
+      "t_999": 15.95
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 8192,
+      "iterations": 1000,
+      "t_min": 5.88,
+      "t_max": 11.46,
+      "t_typical": 5.93,
+      "t_avg": 6.48,
+      "t_stdev": 0.45,
+      "t_99": 7.99,
+      "t_999": 11.46
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 16384,
+      "iterations": 1000,
+      "t_min": 6.42,
+      "t_max": 14.2,
+      "t_typical": 6.74,
+      "t_avg": 7.33,
+      "t_stdev": 0.51,
+      "t_99": 8.81,
+      "t_999": 14.2
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 32768,
+      "iterations": 1000,
+      "t_min": 7.71,
+      "t_max": 14.47,
+      "t_typical": 8.43,
+      "t_avg": 8.64,
+      "t_stdev": 0.52,
+      "t_99": 10.87,
+      "t_999": 14.47
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 65536,
+      "iterations": 1000,
+      "t_min": 10.73,
+      "t_max": 17.88,
+      "t_typical": 11.85,
+      "t_avg": 11.85,
+      "t_stdev": 0.52,
+      "t_99": 13.07,
+      "t_999": 17.88
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 131072,
+      "iterations": 1000,
+      "t_min": 16.55,
+      "t_max": 24.23,
+      "t_typical": 18.46,
+      "t_avg": 18.11,
+      "t_stdev": 0.91,
+      "t_99": 20.63,
+      "t_999": 24.23
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 262144,
+      "iterations": 1000,
+      "t_min": 29.1,
+      "t_max": 35.87,
+      "t_typical": 30.34,
+      "t_avg": 30.42,
+      "t_stdev": 0.41,
+      "t_99": 31.9,
+      "t_999": 35.87
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 524288,
+      "iterations": 1000,
+      "t_min": 53.62,
+      "t_max": 62.64,
+      "t_typical": 54.51,
+      "t_avg": 54.79,
+      "t_stdev": 0.48,
+      "t_99": 56.52,
+      "t_999": 62.64
+    },
+    {
+      "type": "ib_read_lat",
+      "bytes": 1048576,
+      "iterations": 1000,
+      "t_min": 100.68,
+      "t_max": 108.4,
+      "t_typical": 101.64,
+      "t_avg": 101.7,
+      "t_stdev": 0.18,
+      "t_99": 103.17,
+      "t_999": 108.4
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 64,
+      "iterations": 1000,
+      "t_min": 2.48,
+      "t_max": 6.85,
+      "t_typical": 2.57,
+      "t_avg": 2.78,
+      "t_stdev": 0.15,
+      "t_99": 3.65,
+      "t_999": 6.85
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 128,
+      "iterations": 1000,
+      "t_min": 2.53,
+      "t_max": 9.71,
+      "t_typical": 2.61,
+      "t_avg": 2.92,
+      "t_stdev": 0.62,
+      "t_99": 7.65,
+      "t_999": 9.71
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 256,
+      "iterations": 1000,
+      "t_min": 3.26,
+      "t_max": 8.26,
+      "t_typical": 3.35,
+      "t_avg": 3.43,
+      "t_stdev": 0.2,
+      "t_99": 4.1,
+      "t_999": 8.26
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 512,
+      "iterations": 1000,
+      "t_min": 3.33,
+      "t_max": 8.95,
+      "t_typical": 3.44,
+      "t_avg": 3.55,
+      "t_stdev": 0.19,
+      "t_99": 4.22,
+      "t_999": 8.95
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 1024,
+      "iterations": 1000,
+      "t_min": 3.4,
+      "t_max": 7.83,
+      "t_typical": 3.47,
+      "t_avg": 3.59,
+      "t_stdev": 0.16,
+      "t_99": 4.61,
+      "t_999": 7.83
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 2048,
+      "iterations": 1000,
+      "t_min": 3.48,
+      "t_max": 8.59,
+      "t_typical": 3.97,
+      "t_avg": 3.93,
+      "t_stdev": 0.24,
+      "t_99": 4.64,
+      "t_999": 8.59
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 4096,
+      "iterations": 1000,
+      "t_min": 3.7,
+      "t_max": 8.48,
+      "t_typical": 3.73,
+      "t_avg": 4.18,
+      "t_stdev": 0.4,
+      "t_99": 6.08,
+      "t_999": 8.48
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 8192,
+      "iterations": 1000,
+      "t_min": 3.88,
+      "t_max": 10.71,
+      "t_typical": 4.5,
+      "t_avg": 4.49,
+      "t_stdev": 0.33,
+      "t_99": 6.15,
+      "t_999": 10.71
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 16384,
+      "iterations": 1000,
+      "t_min": 4.43,
+      "t_max": 9.03,
+      "t_typical": 4.77,
+      "t_avg": 5.0,
+      "t_stdev": 0.33,
+      "t_99": 6.79,
+      "t_999": 9.03
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 32768,
+      "iterations": 1000,
+      "t_min": 5.93,
+      "t_max": 10.38,
+      "t_typical": 6.41,
+      "t_avg": 6.36,
+      "t_stdev": 0.18,
+      "t_99": 8.02,
+      "t_999": 10.38
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 65536,
+      "iterations": 1000,
+      "t_min": 8.71,
+      "t_max": 12.68,
+      "t_typical": 9.18,
+      "t_avg": 9.3,
+      "t_stdev": 0.26,
+      "t_99": 10.9,
+      "t_999": 12.68
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 131072,
+      "iterations": 1000,
+      "t_min": 14.5,
+      "t_max": 19.9,
+      "t_typical": 15.05,
+      "t_avg": 15.11,
+      "t_stdev": 0.26,
+      "t_99": 16.61,
+      "t_999": 19.9
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 262144,
+      "iterations": 1000,
+      "t_min": 26.34,
+      "t_max": 30.49,
+      "t_typical": 26.72,
+      "t_avg": 26.79,
+      "t_stdev": 0.16,
+      "t_99": 28.09,
+      "t_999": 30.49
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 524288,
+      "iterations": 1000,
+      "t_min": 49.45,
+      "t_max": 57.05,
+      "t_typical": 49.58,
+      "t_avg": 49.76,
+      "t_stdev": 0.49,
+      "t_99": 53.8,
+      "t_999": 57.05
+    },
+    {
+      "type": "ib_write_lat",
+      "bytes": 1048576,
+      "iterations": 1000,
+      "t_min": 94.78,
+      "t_max": 99.7,
+      "t_typical": 94.86,
+      "t_avg": 94.96,
+      "t_stdev": 0.21,
+      "t_99": 96.38,
+      "t_999": 99.7
+    }
+  ]
+}

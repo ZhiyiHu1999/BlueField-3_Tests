@@ -1,0 +1,2918 @@
+Server starting...
+Starting server mode for ib_send_bw with message size 64 bytes...
+ib_send_bw
+Server is running with PID 57887...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.752000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03f8 PSN 0x964856
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03f8 PSN 0xe28672
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 64         1000             0.00               5.84   		     0.095655
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 128 bytes...
+ib_send_bw
+Server is running with PID 57930...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.750000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03f9 PSN 0xae6cdc
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03f9 PSN 0x31da3e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 128        1000             0.00               21.89  		     0.179317
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 256 bytes...
+ib_send_bw
+Server is running with PID 57931...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.748000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03fa PSN 0xaab76
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03fa PSN 0xd37226
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 256        1000             0.00               43.94  		     0.179970
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 512 bytes...
+ib_send_bw
+Server is running with PID 57932...
+Conflicting CPU frequency values detected: 1500.000000 != 3158.308000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03fb PSN 0x40b6ea
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03fb PSN 0x98e387
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 512        1000             0.00               85.59  		     0.175291
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 1024 bytes...
+ib_send_bw
+Server is running with PID 57933...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.745000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03fc PSN 0xa7539c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03fc PSN 0x4b72c9
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1024       1000             0.00               169.39 		     0.173454
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 2048 bytes...
+ib_send_bw
+Server is running with PID 57934...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.730000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03fd PSN 0x76bfb
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03fd PSN 0xa4876f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2048       1000             0.00               331.31 		     0.169630
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 4096 bytes...
+ib_send_bw
+Server is running with PID 57937...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.764000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03fe PSN 0x803d38
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03fe PSN 0xb135c9
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 4096       1000             0.00               644.89 		     0.165091
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 8192 bytes...
+ib_send_bw
+Server is running with PID 57938...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.729000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ff PSN 0x6dbc25
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x03ff PSN 0x717dd7
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8192       1000             0.00               1241.13		     0.158865
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 16384 bytes...
+ib_send_bw
+Server is running with PID 57940...
+Conflicting CPU frequency values detected: 1500.000000 != 3276.204000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0400 PSN 0x4235aa
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0400 PSN 0x726031
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 16384      1000             0.00               2186.54		     0.139939
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 32768 bytes...
+ib_send_bw
+Server is running with PID 57941...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.545000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0401 PSN 0x46a7ee
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0401 PSN 0x608eee
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 32768      1000             0.00               3703.79		     0.118521
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 65536 bytes...
+ib_send_bw
+Server is running with PID 57942...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.751000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0402 PSN 0x24e70c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0402 PSN 0x2575f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 65536      1000             0.00               5497.22		     0.087956
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 131072 bytes...
+ib_send_bw
+Server is running with PID 57944...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.730000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0403 PSN 0x1141a
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0403 PSN 0xb8e7a9
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 131072     1000             0.00               7222.18		     0.057777
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 262144 bytes...
+ib_send_bw
+Server is running with PID 57946...
+Conflicting CPU frequency values detected: 1500.000000 != 1463.827000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0404 PSN 0x10098d
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0404 PSN 0xe24fea
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 262144     1000             0.00               8573.32		     0.034293
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 524288 bytes...
+ib_send_bw
+Server is running with PID 57948...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.774000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0405 PSN 0xd298b4
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0405 PSN 0x72eb93
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 524288     1000             0.00               9710.87		     0.019422
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_bw with message size 1048576 bytes...
+ib_send_bw
+Server is running with PID 57949...
+Conflicting CPU frequency values detected: 1500.000000 != 1456.397000. CPU Frequency is not max.
+ WARNING: BW peak won't be measured in this run.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0406 PSN 0x5531b7
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0406 PSN 0x772acd
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1048576    1000             0.00               10381.33		     0.010381
+---------------------------------------------------------------------------------------
+
+
+
+Starting server mode for ib_send_lat with message size 64 bytes...
+ib_send_lat
+Server is running with PID 57951...
+Conflicting CPU frequency values detected: 1500.000000 != 1459.019000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1462.143000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0407 PSN 0x3cec13
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0407 PSN 0x8d623a
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 64      1000          2.59           6.38         2.68     	       2.81        	0.11   		3.69    		6.38   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 128 bytes...
+ib_send_lat
+Server is running with PID 57952...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.749000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3277.254000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0408 PSN 0xd6786e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0408 PSN 0xdf11de
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 128     1000          2.63           6.82         2.72     	       2.87        	0.20   		4.23    		6.82   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 256 bytes...
+ib_send_lat
+Server is running with PID 57953...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.732000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.738000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0409 PSN 0xe19649
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0409 PSN 0x232ffa
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 256     1000          3.31           8.78         3.38     	       3.45        	0.22   		4.50    		8.78   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 512 bytes...
+ib_send_lat
+Server is running with PID 57954...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.737000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.754000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x040a PSN 0xa52f8f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x040a PSN 0x5d096b
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 512     1000          3.39           8.24         3.43     	       3.53        	0.21   		4.39    		8.24   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 1024 bytes...
+ib_send_lat
+Server is running with PID 57956...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.748000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.731000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x040b PSN 0xbeaa5e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x040b PSN 0x29d176
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1024    1000          3.50           9.06         3.55     	       3.62        	0.18   		4.17    		9.06   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 2048 bytes...
+ib_send_lat
+Server is running with PID 57957...
+Conflicting CPU frequency values detected: 1500.000000 != 2400.000000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.743000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x040c PSN 0x9936fb
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x040c PSN 0xc621b0
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 2048    1000          3.57           8.60         4.04     	       3.98        	0.21   		5.46    		8.60   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 4096 bytes...
+ib_send_lat
+Server is running with PID 57958...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.716000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.735000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x040d PSN 0x359529
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x040d PSN 0x3b1d64
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 4096    1000          3.74           9.83         3.83     	       4.23        	0.38   		5.85    		9.83   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 8192 bytes...
+ib_send_lat
+Server is running with PID 57959...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.742000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.747000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x040e PSN 0x3a2eb0
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x040e PSN 0x5e2ac2
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 8192    1000          3.91           9.65         4.64     	       4.58        	0.23   		5.36    		9.65   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 16384 bytes...
+ib_send_lat
+Server is running with PID 57960...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.734000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3277.234000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x040f PSN 0xed8036
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x040f PSN 0x8016c0
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 16384   1000          4.58           10.12        4.91     	       5.13        	0.33   		6.84    		10.12  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 32768 bytes...
+ib_send_lat
+Server is running with PID 57961...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.735000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.717000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0410 PSN 0x1c26a8
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0410 PSN 0xaf9446
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 32768   1000          5.98           9.94         6.38     	       6.45        	0.10   		7.50    		9.94   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 65536 bytes...
+ib_send_lat
+Server is running with PID 57964...
+Conflicting CPU frequency values detected: 1500.000000 != 2400.000000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1463.730000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0411 PSN 0xb6bf20
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0411 PSN 0xff66f3
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 65536   1000          8.78           13.79        9.34     	       9.37        	0.15   		10.63   		13.79  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 131072 bytes...
+ib_send_lat
+Server is running with PID 57965...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.746000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.732000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0412 PSN 0xe93f56
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0412 PSN 0x580e88
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 131072  1000          14.60          19.63        15.28    	       15.28       	0.21   		16.42   		19.63  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 262144 bytes...
+ib_send_lat
+Server is running with PID 57966...
+Conflicting CPU frequency values detected: 1500.000000 != 1463.578000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3277.250000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0413 PSN 0x912ad2
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0413 PSN 0x718b66
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 262144  1000          26.23          31.91        26.98    	       26.88       	0.18   		27.73   		31.91  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 524288 bytes...
+ib_send_lat
+Server is running with PID 57968...
+Conflicting CPU frequency values detected: 1500.000000 != 3277.234000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.730000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0414 PSN 0x13083e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0414 PSN 0x230970
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 524288  1000          49.61          53.85        50.04    	       50.04       	0.03   		50.24   		53.85  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_send_lat with message size 1048576 bytes...
+ib_send_lat
+Server is running with PID 57970...
+Conflicting CPU frequency values detected: 1500.000000 != 3276.217000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.724000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ RX depth        : 512
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0415 PSN 0xbdeaa3
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0415 PSN 0x1e06b0
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1048576 1000          94.91          99.86        94.99    	       95.08       	0.23   		96.39   		99.86  
+---------------------------------------------------------------------------------------
+
+
+
+Starting server mode for ib_read_bw with message size 64 bytes...
+ib_read_bw
+Server is running with PID 57971...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0416 PSN 0xa3004 OUT 0x10 RKey 0x200700 VAddr 0x005dfa1d4f6000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0416 PSN 0x811a34 OUT 0x10 RKey 0x200700 VAddr 0x0064cbd1b65000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 64         1000             12.38              11.14  		     0.182457
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 128 bytes...
+ib_read_bw
+Server is running with PID 57973...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0417 PSN 0x93c0f9 OUT 0x10 RKey 0x200700 VAddr 0x0056df369e9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0417 PSN 0x1418a1 OUT 0x10 RKey 0x200700 VAddr 0x0057ab1e7be000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 128        1000             24.13              21.84  		     0.178952
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 256 bytes...
+ib_read_bw
+Server is running with PID 57974...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0418 PSN 0xb1b36 OUT 0x10 RKey 0x200700 VAddr 0x0064e2f6417000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0418 PSN 0xe6519a OUT 0x10 RKey 0x200700 VAddr 0x006222faa98000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 256        1000             48.06              43.40  		     0.177770
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 512 bytes...
+ib_read_bw
+Server is running with PID 57977...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0419 PSN 0x7441c1 OUT 0x10 RKey 0x200700 VAddr 0x005aedf3bf4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0419 PSN 0xde7f34 OUT 0x10 RKey 0x200700 VAddr 0x005a487b05b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 512        1000             94.63              84.95  		     0.173969
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 1024 bytes...
+ib_read_bw
+Server is running with PID 57979...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x041a PSN 0x5863f OUT 0x10 RKey 0x200700 VAddr 0x00647aae5a7000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x041a PSN 0x52fe04 OUT 0x10 RKey 0x200700 VAddr 0x005709c1c95000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1024       1000             188.17             167.34 		     0.171354
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 2048 bytes...
+ib_read_bw
+Server is running with PID 57980...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x041b PSN 0x476d88 OUT 0x10 RKey 0x200700 VAddr 0x005e9205a76000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x041b PSN 0x7b1688 OUT 0x10 RKey 0x200700 VAddr 0x00563b7903a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2048       1000             369.91             331.98 		     0.169971
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 4096 bytes...
+ib_read_bw
+Server is running with PID 57981...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x041c PSN 0x6321aa OUT 0x10 RKey 0x200700 VAddr 0x00568d585af000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x041c PSN 0x56c8c0 OUT 0x10 RKey 0x200700 VAddr 0x005a7917a46000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 4096       1000             719.34             643.12 		     0.164640
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 8192 bytes...
+ib_read_bw
+Server is running with PID 57984...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x041d PSN 0x1e26e OUT 0x10 RKey 0x200000 VAddr 0x005c2e95271000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x041d PSN 0x111446 OUT 0x10 RKey 0x200000 VAddr 0x005832703bd000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8192       1000             1323.87            1166.56		     0.149320
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 16384 bytes...
+ib_read_bw
+Server is running with PID 57985...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x041e PSN 0x217055 OUT 0x10 RKey 0x200100 VAddr 0x005c00ee1c1000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x041e PSN 0x2dc6c0 OUT 0x10 RKey 0x200100 VAddr 0x0061141b8ac000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 16384      1000             2483.33            2151.44		     0.137692
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 32768 bytes...
+ib_read_bw
+Server is running with PID 57986...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x041f PSN 0x1acb16 OUT 0x10 RKey 0x200200 VAddr 0x0060d216979000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x041f PSN 0x2b16c2 OUT 0x10 RKey 0x200200 VAddr 0x0055ea9c0b0000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 32768      1000             4029.78            3590.48		     0.114896
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 65536 bytes...
+ib_read_bw
+Server is running with PID 57987...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0420 PSN 0x410494 OUT 0x10 RKey 0x1fff00 VAddr 0x00741d8bbad000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0420 PSN 0x274564 OUT 0x10 RKey 0x1fff00 VAddr 0x0070f9cb7ef000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 65536      1000             5896.18            5284.55		     0.084553
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 131072 bytes...
+ib_read_bw
+Server is running with PID 57988...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0421 PSN 0x646c40 OUT 0x10 RKey 0x200300 VAddr 0x007bc078757000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0421 PSN 0x3891d4 OUT 0x10 RKey 0x200300 VAddr 0x007b549c91a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 131072     1000             7534.02            6901.92		     0.055215
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 262144 bytes...
+ib_read_bw
+Server is running with PID 57990...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0422 PSN 0xcbcb17 OUT 0x10 RKey 0x200400 VAddr 0x0074d18a8d0000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0422 PSN 0xfd77f8 OUT 0x10 RKey 0x200400 VAddr 0x007d40d38fa000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 262144     1000             8595.43            8150.73		     0.032603
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 524288 bytes...
+ib_read_bw
+Server is running with PID 57992...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0423 PSN 0xe6c3a2 OUT 0x10 RKey 0x200500 VAddr 0x007cabcd77f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0423 PSN 0x75f7d0 OUT 0x10 RKey 0x200500 VAddr 0x007da0c7290000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 524288     1000             9476.97            9111.78		     0.018224
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_bw with message size 1048576 bytes...
+ib_read_bw
+Server is running with PID 57994...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0424 PSN 0x458e42 OUT 0x10 RKey 0x200600 VAddr 0x007bcbad0ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0424 PSN 0xe10d64 OUT 0x10 RKey 0x200600 VAddr 0x0077ca1a43a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1048576    1000             9956.12            9858.70		     0.009859
+---------------------------------------------------------------------------------------
+
+
+
+Starting server mode for ib_read_lat with message size 64 bytes...
+ib_read_lat
+Server is running with PID 57995...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0425 PSN 0xd4fd3 OUT 0x10 RKey 0x200700 VAddr 0x005c1586b38000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0425 PSN 0xfc48af OUT 0x10 RKey 0x200700 VAddr 0x005b91509f2000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 128 bytes...
+ib_read_lat
+Server is running with PID 57996...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0426 PSN 0x2bfd0c OUT 0x10 RKey 0x200700 VAddr 0x00556c36203000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0426 PSN 0x66a2ab OUT 0x10 RKey 0x200700 VAddr 0x00637713676000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 256 bytes...
+ib_read_lat
+Server is running with PID 57997...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0427 PSN 0x1dcb87 OUT 0x10 RKey 0x200700 VAddr 0x005c4dc946d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0427 PSN 0x4e0974 OUT 0x10 RKey 0x200700 VAddr 0x0059e050264000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 512 bytes...
+ib_read_lat
+Server is running with PID 57998...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0428 PSN 0x536c18 OUT 0x10 RKey 0x200700 VAddr 0x00578ff31ce000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0428 PSN 0x3ef950 OUT 0x10 RKey 0x200700 VAddr 0x00567058b8a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 1024 bytes...
+ib_read_lat
+Server is running with PID 57999...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0429 PSN 0x6f477e OUT 0x10 RKey 0x200700 VAddr 0x006398a5df6000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0429 PSN 0x7a79ee OUT 0x10 RKey 0x200700 VAddr 0x005f7121182000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 2048 bytes...
+ib_read_lat
+Server is running with PID 58002...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x042a PSN 0x12308d OUT 0x10 RKey 0x200700 VAddr 0x005a0ec6c7b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x042a PSN 0x447b0c OUT 0x10 RKey 0x200700 VAddr 0x005cb15f30b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 4096 bytes...
+ib_read_lat
+Server is running with PID 58003...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x042b PSN 0x31e5b7 OUT 0x10 RKey 0x200700 VAddr 0x0063d8c3def000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x042b PSN 0x590ced OUT 0x10 RKey 0x200700 VAddr 0x005b68e9107000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 8192 bytes...
+ib_read_lat
+Server is running with PID 58004...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x042c PSN 0x5c203e OUT 0x10 RKey 0x200000 VAddr 0x00644a37d87000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x042c PSN 0x6c7d6e OUT 0x10 RKey 0x200000 VAddr 0x00619734549000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 16384 bytes...
+ib_read_lat
+Server is running with PID 58005...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x042d PSN 0xa5e253 OUT 0x10 RKey 0x1fff00 VAddr 0x0058bc7359f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x042d PSN 0x29fe90 OUT 0x10 RKey 0x1fff00 VAddr 0x0055c659458000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 32768 bytes...
+ib_read_lat
+Server is running with PID 58006...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x042e PSN 0xe71031 OUT 0x10 RKey 0x200100 VAddr 0x0060a31bba3000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x042e PSN 0xb70074 OUT 0x10 RKey 0x200100 VAddr 0x00626082b0b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 65536 bytes...
+ib_read_lat
+Server is running with PID 58007...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x042f PSN 0x5adf30 OUT 0x10 RKey 0x200200 VAddr 0x0074da85d83000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x042f PSN 0xb581d8 OUT 0x10 RKey 0x200200 VAddr 0x00752165967000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 131072 bytes...
+ib_read_lat
+Server is running with PID 58010...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0430 PSN 0xead5f0 OUT 0x10 RKey 0x200300 VAddr 0x0070282df73000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0430 PSN 0x240420 OUT 0x10 RKey 0x200300 VAddr 0x0071ebca3df000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 262144 bytes...
+ib_read_lat
+Server is running with PID 58011...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0431 PSN 0x627eb4 OUT 0x10 RKey 0x200400 VAddr 0x007d4b40cfa000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0431 PSN 0xec56f8 OUT 0x10 RKey 0x200400 VAddr 0x007a34546b4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 524288 bytes...
+ib_read_lat
+Server is running with PID 58012...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0432 PSN 0x984688 OUT 0x10 RKey 0x200500 VAddr 0x00756d2ed3d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0432 PSN 0xb38870 OUT 0x10 RKey 0x200500 VAddr 0x007b3627d13000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_read_lat with message size 1048576 bytes...
+ib_read_lat
+Server is running with PID 58013...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0433 PSN 0x39fc36 OUT 0x10 RKey 0x200600 VAddr 0x0076cde24ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0433 PSN 0xd1b9b OUT 0x10 RKey 0x200600 VAddr 0x0072192eeff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+
+
+
+Starting server mode for ib_write_bw with message size 64 bytes...
+ib_write_bw
+Server is running with PID 58014...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0434 PSN 0x57f005 RKey 0x200700 VAddr 0x00598ab1db0000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0434 PSN 0x9cfd28 RKey 0x200700 VAddr 0x005a650a3da000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 64         5000             12.69              11.49  		     0.188315
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 128 bytes...
+ib_write_bw
+Server is running with PID 58015...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0435 PSN 0xe1d1ae RKey 0x200700 VAddr 0x005ce96046d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0435 PSN 0x6fbbee RKey 0x200700 VAddr 0x005d769f5d9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 128        5000             24.56              22.12  		     0.181193
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 256 bytes...
+ib_write_bw
+Server is running with PID 58017...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0436 PSN 0xe08a48 RKey 0x200700 VAddr 0x005e7624bfb000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0436 PSN 0xd1b5b8 RKey 0x200700 VAddr 0x0062bea05ac000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 256        5000             48.93              44.36  		     0.181679
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 512 bytes...
+ib_write_bw
+Server is running with PID 58051...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0437 PSN 0x90c546 RKey 0x200700 VAddr 0x005748cf58e000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0437 PSN 0xc82f10 RKey 0x200700 VAddr 0x00628c2ecda000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 512        5000             98.65              89.22  		     0.182721
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 1024 bytes...
+ib_write_bw
+Server is running with PID 58056...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0438 PSN 0xf1fb36 RKey 0x200700 VAddr 0x0058e20536c000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0438 PSN 0xf96c51 RKey 0x200700 VAddr 0x005a9c1b4e7000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1024       5000             194.16             174.71 		     0.178901
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 2048 bytes...
+ib_write_bw
+Server is running with PID 58057...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0439 PSN 0x82fe41 RKey 0x200700 VAddr 0x00646c966d3000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0439 PSN 0xf4d0d5 RKey 0x200700 VAddr 0x005ae9c53ca000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2048       5000             374.17             335.42 		     0.171737
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 4096 bytes...
+ib_write_bw
+Server is running with PID 58059...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x043a PSN 0x8e735d RKey 0x200700 VAddr 0x005b7454c60000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x043a PSN 0x2ea85b RKey 0x200700 VAddr 0x005b04a8c3b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 4096       5000             732.87             655.68 		     0.167854
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 8192 bytes...
+ib_write_bw
+Server is running with PID 58060...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x043b PSN 0xea0374 RKey 0x1fff00 VAddr 0x006059539f8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x043b PSN 0x4402f6 RKey 0x1fff00 VAddr 0x005bc3eb1e8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8192       5000             1422.93            1245.36		     0.159406
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 16384 bytes...
+ib_write_bw
+Server is running with PID 58061...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x043c PSN 0x68cd9a RKey 0x200000 VAddr 0x00627dfe982000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x043c PSN 0x339722 RKey 0x200000 VAddr 0x005a7a23eeb000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 16384      5000             2507.30            2261.24		     0.144719
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 32768 bytes...
+ib_write_bw
+Server is running with PID 58062...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x043d PSN 0xae4b07 RKey 0x200100 VAddr 0x005feff36f3000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x043d PSN 0x9e431e RKey 0x200100 VAddr 0x005be437aab000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 32768      5000             4125.72            3724.48		     0.119183
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 65536 bytes...
+ib_write_bw
+Server is running with PID 58065...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x043e PSN 0x14187f RKey 0x200200 VAddr 0x007b8c878e4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x043e PSN 0x61148a RKey 0x200200 VAddr 0x007dae41e48000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 65536      5000             5969.53            5526.61		     0.088426
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 131072 bytes...
+ib_write_bw
+Server is running with PID 58067...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x043f PSN 0xf5a7f5 RKey 0x200300 VAddr 0x00792703469000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x043f PSN 0x4f4cc9 RKey 0x200300 VAddr 0x007bfa77953000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 131072     5000             7710.92            7211.79		     0.057694
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 262144 bytes...
+ib_write_bw
+Server is running with PID 58068...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0440 PSN 0xfd457a RKey 0x200400 VAddr 0x0073300ff37000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0440 PSN 0xee30e6 RKey 0x200400 VAddr 0x0071749537d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 262144     5000             9146.78            8622.10		     0.034488
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 524288 bytes...
+ib_write_bw
+Server is running with PID 58069...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0441 PSN 0x74835a RKey 0x200500 VAddr 0x007367c957f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0441 PSN 0x52088f RKey 0x200500 VAddr 0x007c3fd9713000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 524288     5000             9949.16            9783.14		     0.019566
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_bw with message size 1048576 bytes...
+ib_write_bw
+Server is running with PID 58070...
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0442 PSN 0x6ce111 RKey 0x200600 VAddr 0x007b135e493000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0442 PSN 0x55e2e RKey 0x200600 VAddr 0x0074c06d0ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1048576    5000             10465.61            10380.70		     0.010381
+---------------------------------------------------------------------------------------
+
+
+
+Starting server mode for ib_write_lat with message size 64 bytes...
+ib_write_lat
+Server is running with PID 58072...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.780000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.752000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0443 PSN 0x33caae RKey 0x1ff2af VAddr 0x005abc341a3000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0443 PSN 0xfb13e RKey 0x1ffebb VAddr 0x005a7538cbb000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 64      1000          2.52           7.81         2.56     	       2.78        	0.18   		3.63    		7.81   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 128 bytes...
+ib_write_lat
+Server is running with PID 58073...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.758000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.744000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0444 PSN 0xbb290b RKey 0x1ff2af VAddr 0x005c2bfb05c000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0444 PSN 0xe41cd2 RKey 0x1ffebb VAddr 0x005ccd0a0c2000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 128     1000          2.51           14.28        2.60     	       2.93        	0.67   		7.92    		14.28  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 256 bytes...
+ib_write_lat
+Server is running with PID 58074...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.744000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3276.219000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0445 PSN 0xb08dab RKey 0x1ff2af VAddr 0x005e5523991000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0445 PSN 0x22a8e9 RKey 0x1ffebb VAddr 0x005bdd333da000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 256     1000          3.21           9.29         3.35     	       3.44        	0.25   		4.16    		9.29   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 512 bytes...
+ib_write_lat
+Server is running with PID 58075...
+Conflicting CPU frequency values detected: 1500.000000 != 1462.838000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1431.527000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0446 PSN 0x61f8f2 RKey 0x1ff2af VAddr 0x005e68d2c98000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0446 PSN 0xbd56b2 RKey 0x1ffebb VAddr 0x005f4f16ae9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 512     1000          3.34           10.52        3.44     	       3.55        	0.24   		4.22    		10.52  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 1024 bytes...
+ib_write_lat
+Server is running with PID 58077...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.750000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.741000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0447 PSN 0x5aa303 RKey 0x1ff2af VAddr 0x005ccf7af40000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0447 PSN 0x29c978 RKey 0x1ffebb VAddr 0x005fd59ab70000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1024    1000          3.42           9.83         3.47     	       3.59        	0.19   		4.86    		9.83   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 2048 bytes...
+ib_write_lat
+Server is running with PID 58079...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.736000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.744000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0448 PSN 0xfc3a28 RKey 0x1ff2af VAddr 0x006459dc251000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0448 PSN 0x189116 RKey 0x1ffebb VAddr 0x00569efb0c0000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 2048    1000          3.48           9.32         3.96     	       3.93        	0.26   		4.63    		9.32   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 4096 bytes...
+ib_write_lat
+Server is running with PID 58080...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.744000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.760000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0449 PSN 0xe638be RKey 0x1ff2af VAddr 0x005ea91d684000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0449 PSN 0xb2ea8b RKey 0x1ffebb VAddr 0x005e3900896000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 4096    1000          3.66           8.72         3.78     	       4.19        	0.40   		5.88    		8.72   
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 8192 bytes...
+ib_write_lat
+Server is running with PID 58081...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.747000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.733000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x044a PSN 0xc58ab4 RKey 0x1ff2af VAddr 0x005556c7bb6000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x044a PSN 0x1f4494 RKey 0x1ffebb VAddr 0x005b6767608000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 8192    1000          3.88           11.53        4.50     	       4.50        	0.36   		5.85    		11.53  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 16384 bytes...
+ib_write_lat
+Server is running with PID 58082...
+Conflicting CPU frequency values detected: 1500.000000 != 3276.223000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.731000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x044b PSN 0xc67ca2 RKey 0x1ffebb VAddr 0x006111b62e9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x044b PSN 0x4ade5c RKey 0x1ff4b1 VAddr 0x005eb0bfa49000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 16384   1000          4.43           10.82        4.76     	       5.00        	0.37   		6.92    		10.82  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 32768 bytes...
+ib_write_lat
+Server is running with PID 58083...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.731000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.747000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x044c PSN 0xcfdb83 RKey 0x1829e3 VAddr 0x005ed7448e7000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x044c PSN 0xc2315f RKey 0x17eaa7 VAddr 0x0058cfd3616000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 32768   1000          5.89           10.21        6.38     	       6.36        	0.23   		8.40    		10.21  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 65536 bytes...
+ib_write_lat
+Server is running with PID 58085...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.734000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.749000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x044d PSN 0xc4d312 RKey 0x1823e0 VAddr 0x0075a3906a4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x044d PSN 0xa809bb RKey 0x182ae6 VAddr 0x00765cb129f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 65536   1000          8.70           14.30        9.30     	       9.31        	0.17   		10.67   		14.30  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 131072 bytes...
+ib_write_lat
+Server is running with PID 58087...
+Conflicting CPU frequency values detected: 1500.000000 != 1463.723000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1463.781000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x044e PSN 0xaf1e02 RKey 0x1836f1 VAddr 0x007fe14e0ca000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x044e PSN 0xef8d45 RKey 0x1816d3 VAddr 0x007496f8297000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 131072  1000          14.46          20.01        15.05    	       15.12       	0.29   		16.66   		20.01  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 262144 bytes...
+ib_write_lat
+Server is running with PID 58088...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.760000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.744000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x044f PSN 0xa4a9e6 RKey 0x181edb VAddr 0x0076b0a2e92000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x044f PSN 0x4f52d0 RKey 0x1832ef VAddr 0x007907342fa000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 262144  1000          26.23          30.51        26.73    	       26.79       	0.19   		28.37   		30.51  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 524288 bytes...
+ib_write_lat
+Server is running with PID 58090...
+Conflicting CPU frequency values detected: 1500.000000 != 3293.647000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.749000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0450 PSN 0xf6283e RKey 0x1816d3 VAddr 0x007b49e733d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0450 PSN 0x91ee76 RKey 0x1832ef VAddr 0x00738d37cba000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 524288  1000          49.45          57.08        49.58    	       49.77       	0.45   		53.49   		57.08  
+---------------------------------------------------------------------------------------
+
+
+Starting server mode for ib_write_lat with message size 1048576 bytes...
+ib_write_lat
+Server is running with PID 58111...
+Conflicting CPU frequency values detected: 1497.511000 != 3293.745000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.739000. CPU Frequency is not max.
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0451 PSN 0x357182 RKey 0x17ca87 VAddr 0x0070a17e8ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+ remote address: LID 0000 QPN 0x0451 PSN 0x250a2c RKey 0x1801be VAddr 0x007cbc680ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1048576 1000          94.79          100.43       94.87    	       94.96       	0.24   		96.37   		100.43 
+---------------------------------------------------------------------------------------
+
+
+
+Server test completed.

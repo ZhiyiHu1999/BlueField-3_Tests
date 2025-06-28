@@ -1,0 +1,2716 @@
+Cleaning old log file...
+Starting RDMA performance test: Sun Jun 15 08:19:36 CEST 2025
+Device: mlx5_0
+
+Running ib_send_bw test...
+Testing message size: 64 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.869000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x039a PSN 0xbaf832
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x039a PSN 0x3a9fee
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 64         1000             12.56              11.35  		     0.185938
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 128 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.871000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x039b PSN 0xac4018
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x039b PSN 0x8c5084
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 128        1000             24.92              22.20  		     0.181872
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 256 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.871000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x039c PSN 0x836701
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x039c PSN 0xed099f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 256        1000             49.43              43.71  		     0.179021
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 512 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.895000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x039d PSN 0x4be7c8
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x039d PSN 0xfc8b0c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 512        1000             97.86              88.98  		     0.182222
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1024 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3000.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x039e PSN 0x2ce66
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x039e PSN 0xc4778f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1024       1000             189.63             171.10 		     0.175210
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 2048 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.856000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x039f PSN 0x1a12a3
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x039f PSN 0x6d06b5
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2048       1000             369.20             330.13 		     0.169026
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 4096 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3000.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a0 PSN 0x7b8746
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a0 PSN 0x47152e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 4096       1000             715.38             638.43 		     0.163438
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 8192 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3277.374000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a1 PSN 0x7aa7e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a1 PSN 0x19b13f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8192       1000             1353.76            1212.50		     0.155200
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 16384 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 1463.572000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a2 PSN 0x5784f8
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a2 PSN 0xd637b8
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 16384      1000             2417.89            2127.57		     0.136165
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 32768 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.892000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a3 PSN 0x37c205
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a3 PSN 0x4953ea
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 32768      1000             4061.26            3618.66		     0.115797
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 65536 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.901000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a4 PSN 0xa433fb
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a4 PSN 0x9e8d1d
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 65536      1000             5980.91            5488.07		     0.087809
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 131072 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a5 PSN 0xc29c89
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a5 PSN 0x289ca6
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 131072     1000             7768.55            7257.05		     0.058056
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 262144 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.882000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a6 PSN 0x6e6ba4
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a6 PSN 0xbf292
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 262144     1000             9103.47            8575.96		     0.034304
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 524288 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3292.855000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a7 PSN 0xcf7852
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a7 PSN 0x99e946
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 524288     1000             9951.22            9744.20		     0.019488
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1048576 bytes
+Running iteration 1...
+Test type: ib_send_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.857000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a8 PSN 0x821d37
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a8 PSN 0xb186a1
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1048576    1000             10464.53            10373.78		     0.010374
+---------------------------------------------------------------------------------------
+
+
+
+Running ib_send_lat test...
+Testing message size: 64 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.881000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03a9 PSN 0xe85bd0
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03a9 PSN 0xa2f0d6
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 64      1000          2.66           9.32         2.72     	       2.86        	0.30   		3.68    		9.32   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 128 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 2400.000000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1463.928000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03aa PSN 0x17cf4d
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03aa PSN 0x981af1
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 128     1000          2.62           8.80         2.69     	       2.84        	0.21   		3.67    		8.80   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 256 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.902000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.873000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ab PSN 0xd227bb
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ab PSN 0x7b2317
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 256     1000          3.34           8.93         3.40     	       3.50        	0.25   		4.00    		8.93   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 512 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.896000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ac PSN 0x85573c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ac PSN 0x1584d8
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 512     1000          3.40           10.46        3.48     	       3.58        	0.27   		4.10    		10.46  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1024 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.881000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.874000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ad PSN 0x6d9659
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ad PSN 0x34d5bc
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1024    1000          3.48           9.52         3.57     	       3.62        	0.22   		5.02    		9.52   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 2048 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.893000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3276.341000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ae PSN 0xbf8a7b
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ae PSN 0x1e99cd
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 2048    1000          3.56           9.65         4.04     	       3.99        	0.22   		4.85    		9.65   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 4096 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.880000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3292.875000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03af PSN 0xfbe36d
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03af PSN 0x67f79c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 4096    1000          3.75           10.68        3.85     	       4.22        	0.49   		5.85    		10.68  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 8192 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3292.838000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.875000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b0 PSN 0x7bbe3f
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b0 PSN 0x68af05
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 8192    1000          3.85           11.46        4.62     	       4.59        	0.28   		5.50    		11.46  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 16384 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.914000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.873000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b1 PSN 0xc3106
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b1 PSN 0x946af6
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 16384   1000          4.51           9.60         4.91     	       5.12        	0.36   		6.94    		9.60   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 32768 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1496.862000 != 3293.864000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 2400.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b2 PSN 0xd59d62
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b2 PSN 0xf6f5a
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 32768   1000          5.97           11.76        6.49     	       6.47        	0.32   		7.77    		11.76  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 65536 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.850000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.900000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b3 PSN 0xa7106b
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b3 PSN 0xa25eb3
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 65536   1000          8.78           15.19        9.23     	       9.38        	0.19   		10.61   		15.19  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 131072 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.884000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b4 PSN 0xe6123e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b4 PSN 0x39afe
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 131072  1000          14.79          18.81        15.20    	       15.28       	0.16   		16.15   		18.81  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 262144 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.876000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3276.343000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b5 PSN 0xb9f1c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b5 PSN 0xeaa42c
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 262144  1000          26.26          30.78        26.97    	       26.86       	0.20   		27.99   		30.78  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 524288 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.879000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.880000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b6 PSN 0x78879e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b6 PSN 0xbd9c29
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 524288  1000          49.54          53.92        50.00    	       49.90       	0.16   		50.72   		53.92  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1048576 bytes
+Running iteration 1...
+Test type: ib_send_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.879000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.897000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    Send Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 236[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b7 PSN 0x72d6ae
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b7 PSN 0x76cc0e
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1048576 1000          94.85          98.63        94.89    	       94.97       	0.13   		95.75   		98.63  
+---------------------------------------------------------------------------------------
+
+
+
+Running ib_read_bw test...
+Testing message size: 64 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.901000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b8 PSN 0xcb14c3 OUT 0x10 RKey 0x200700 VAddr 0x005ebcb4c62000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b8 PSN 0x591db8 OUT 0x10 RKey 0x200700 VAddr 0x00618a357b8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 64         1000             12.09              10.97  		     0.179753
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 128 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3292.855000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03b9 PSN 0xe40ab3 OUT 0x10 RKey 0x200700 VAddr 0x00559d107eb000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03b9 PSN 0x6d15f7 OUT 0x10 RKey 0x200700 VAddr 0x005b25214db000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 128        1000             24.37              22.06  		     0.180704
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 256 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.893000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ba PSN 0xf2cb7d OUT 0x10 RKey 0x200700 VAddr 0x00558af3cf8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ba PSN 0xd61fa9 OUT 0x10 RKey 0x200700 VAddr 0x00624091eb9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 256        1000             48.83              43.44  		     0.177946
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 512 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3292.835000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03bb PSN 0xb525fb OUT 0x10 RKey 0x200700 VAddr 0x0062a3f78eb000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03bb PSN 0xa93185 OUT 0x10 RKey 0x200700 VAddr 0x006346100bd000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 512        1000             97.08              86.98  		     0.178131
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1024 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.892000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03bc PSN 0x2b1a2d OUT 0x10 RKey 0x200700 VAddr 0x00630dbbd11000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03bc PSN 0x56103a OUT 0x10 RKey 0x200700 VAddr 0x00570c03b85000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1024       1000             188.90             167.61 		     0.171631
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 2048 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 1421.974000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03bd PSN 0xb2f70f OUT 0x10 RKey 0x200700 VAddr 0x00594bb2e20000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03bd PSN 0xb878cc OUT 0x10 RKey 0x200700 VAddr 0x005c9a604c9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2048       1000             361.00             323.02 		     0.165387
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 4096 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.888000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03be PSN 0x3bd1e OUT 0x10 RKey 0x200700 VAddr 0x00561041c12000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03be PSN 0x693146 OUT 0x10 RKey 0x200700 VAddr 0x00584220f33000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 4096       1000             715.38             638.05 		     0.163340
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 8192 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.869000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03bf PSN 0xe1e9bb OUT 0x10 RKey 0x200000 VAddr 0x006548881ce000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03bf PSN 0xf3b69a OUT 0x10 RKey 0x200000 VAddr 0x005d8eb378b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8192       1000             1342.12            1195.36		     0.153006
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 16384 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.878000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c0 PSN 0xecf804 OUT 0x10 RKey 0x200100 VAddr 0x00652b3f6d2000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c0 PSN 0x5808c8 OUT 0x10 RKey 0x200100 VAddr 0x005cb39bc54000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 16384      1000             2515.37            2172.14		     0.139017
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 32768 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.895000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c1 PSN 0x6e4da3 OUT 0x10 RKey 0x200200 VAddr 0x005b4967296000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c1 PSN 0x4f4e3 OUT 0x10 RKey 0x200200 VAddr 0x0063e77ba86000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 32768      1000             4029.81            3534.42		     0.113102
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 65536 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 1695.113000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c2 PSN 0x6b2120 OUT 0x10 RKey 0x200300 VAddr 0x007bbab24c1000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c2 PSN 0x4418ee OUT 0x10 RKey 0x200300 VAddr 0x00768e1c870000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 65536      1000             5824.59            5261.02		     0.084176
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 131072 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.871000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c3 PSN 0xf55b2c OUT 0x10 RKey 0x1fff00 VAddr 0x007acc0c31a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c3 PSN 0xd4820c OUT 0x10 RKey 0x1fff00 VAddr 0x00775daa6d4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 131072     1000             7579.79            6914.81		     0.055318
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 262144 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3000.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c4 PSN 0xab4600 OUT 0x10 RKey 0x200400 VAddr 0x0072f7db57d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c4 PSN 0x13b37d OUT 0x10 RKey 0x200400 VAddr 0x0079ab04bbf000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 262144     1000             8516.17            8151.30		     0.032605
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 524288 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.894000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c5 PSN 0xb4abce OUT 0x10 RKey 0x200500 VAddr 0x007ffb7e474000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c5 PSN 0x47717e OUT 0x10 RKey 0x200500 VAddr 0x007941148ba000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 524288     1000             9338.52            9117.28		     0.018235
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1048576 bytes
+Running iteration 1...
+Test type: ib_read_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.897000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c6 PSN 0x6fa14a OUT 0x10 RKey 0x200600 VAddr 0x00734e240bd000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c6 PSN 0x53f756 OUT 0x10 RKey 0x200600 VAddr 0x00793f3d0ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1048576    1000             9983.01            9830.21		     0.009830
+---------------------------------------------------------------------------------------
+
+
+
+Running ib_read_lat test...
+Testing message size: 64 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.880000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.881000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c7 PSN 0xbaa635 OUT 0x10 RKey 0x200700 VAddr 0x00613c82d46000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c7 PSN 0xc00a72 OUT 0x10 RKey 0x200700 VAddr 0x00578320df8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 64      1000          4.97           15.19        5.06     	       5.50        	0.74   		8.10    		15.19  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 128 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.865000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c8 PSN 0xc9b586 OUT 0x10 RKey 0x200700 VAddr 0x0063cd4c9b4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c8 PSN 0xf69d35 OUT 0x10 RKey 0x200700 VAddr 0x005ac699f3d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 128     1000          4.97           11.89        5.05     	       5.47        	0.37   		7.04    		11.89  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 256 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.908000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1463.365000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03c9 PSN 0x42a120 OUT 0x10 RKey 0x200700 VAddr 0x0061c8be33a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03c9 PSN 0x24e65c OUT 0x10 RKey 0x200700 VAddr 0x00614db422a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 256     1000          5.02           10.25        5.06     	       5.49        	0.77   		8.85    		10.25  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 512 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.855000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.895000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ca PSN 0xa5ca46 OUT 0x10 RKey 0x200700 VAddr 0x005ac525240000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ca PSN 0xbe2f4a OUT 0x10 RKey 0x200700 VAddr 0x0063a375c9d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 512     1000          5.18           10.56        5.23     	       5.67        	0.36   		7.28    		10.56  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1024 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.891000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.879000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03cb PSN 0x2b4830 OUT 0x10 RKey 0x200700 VAddr 0x00584de1866000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03cb PSN 0xac42ea OUT 0x10 RKey 0x200700 VAddr 0x0063601fff5000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1024    1000          5.26           15.01        5.29     	       5.74        	0.41   		7.26    		15.01  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 2048 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.875000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03cc PSN 0xcf7198 OUT 0x10 RKey 0x200700 VAddr 0x006006dc990000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03cc PSN 0xc45610 OUT 0x10 RKey 0x200700 VAddr 0x00627386da4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 2048    1000          5.33           11.49        5.37     	       5.90        	0.46   		7.40    		11.49  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 4096 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3292.850000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.885000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03cd PSN 0x78434 OUT 0x10 RKey 0x200700 VAddr 0x005e359868a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03cd PSN 0xc95d08 OUT 0x10 RKey 0x200700 VAddr 0x0056e94ea35000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 4096    1000          5.45           11.58        5.50     	       6.03        	0.47   		7.57    		11.58  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 8192 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.870000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3276.323000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ce PSN 0xffc771 OUT 0x10 RKey 0x200000 VAddr 0x005784e9db7000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ce PSN 0xb7d18 OUT 0x10 RKey 0x200000 VAddr 0x00630becd68000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 8192    1000          5.81           18.69        5.86     	       6.40        	1.02   		9.77    		18.69  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 16384 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.865000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.880000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03cf PSN 0x65c0bb OUT 0x10 RKey 0x200100 VAddr 0x006173c3901000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03cf PSN 0x277767 OUT 0x10 RKey 0x200100 VAddr 0x005a41c9857000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 16384   1000          6.30           18.94        6.67     	       7.25        	0.52   		8.77    		18.94  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 32768 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3000.000000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3000.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d0 PSN 0xb21dcd OUT 0x10 RKey 0x1fff00 VAddr 0x005c799fd5c000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d0 PSN 0x6bc8c1 OUT 0x10 RKey 0x1fff00 VAddr 0x0061bdb078d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 32768   1000          7.85           20.51        8.17     	       8.73        	0.66   		10.89   		20.51  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 65536 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.869000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.873000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d1 PSN 0x15699a OUT 0x10 RKey 0x200200 VAddr 0x0079ea8b23c000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d1 PSN 0x6569af OUT 0x10 RKey 0x200200 VAddr 0x007cc697877000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 65536   1000          10.74          20.81        11.84    	       11.84       	0.73   		13.96   		20.81  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 131072 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3276.325000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.873000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d2 PSN 0xa2c6ee OUT 0x10 RKey 0x200300 VAddr 0x007d042a71a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d2 PSN 0xd5706e OUT 0x10 RKey 0x200300 VAddr 0x0071991cd9d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 131072  1000          16.59          22.82        17.48    	       18.13       	0.85   		20.41   		22.82  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 262144 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 3293.896000 != 1500.000000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 3292.850000 != 1500.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d3 PSN 0xc7e73a OUT 0x10 RKey 0x200400 VAddr 0x0074882477d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d3 PSN 0xe604b3 OUT 0x10 RKey 0x200400 VAddr 0x0070d294f37000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 262144  1000          29.45          40.07        30.17    	       30.43       	0.26   		31.43   		40.07  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 524288 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.905000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.866000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d4 PSN 0xa95e63 OUT 0x10 RKey 0x200500 VAddr 0x0076da05490000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d4 PSN 0x80185d OUT 0x10 RKey 0x200500 VAddr 0x007509fd0ba000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 524288  1000          53.50          64.72        54.54    	       54.81       	0.71   		56.46   		64.72  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1048576 bytes
+Running iteration 1...
+Test type: ib_read_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.885000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3276.340000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Read Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d5 PSN 0xfc655e OUT 0x10 RKey 0x200600 VAddr 0x007770fee36000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d5 PSN 0xa79ffa OUT 0x10 RKey 0x200600 VAddr 0x007e2072cbd000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1048576 1000          100.84         107.85       101.55   	       101.62      	0.39   		103.54  		107.85 
+---------------------------------------------------------------------------------------
+
+
+
+Running ib_write_bw test...
+Testing message size: 64 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3277.386000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d6 PSN 0xdcd2e7 RKey 0x200700 VAddr 0x005cfd0b181000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d6 PSN 0x692075 RKey 0x200700 VAddr 0x0058e7d3589000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 64         5000             12.31              11.15  		     0.182609
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 128 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.873000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d7 PSN 0x8f7c67 RKey 0x200700 VAddr 0x005a9451f63000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d7 PSN 0x986901 RKey 0x200700 VAddr 0x005ae580e3b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 128        5000             24.81              22.37  		     0.183276
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 256 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.887000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d8 PSN 0xeb6332 RKey 0x200700 VAddr 0x005ddb99ca3000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d8 PSN 0xedd74d RKey 0x200700 VAddr 0x0058cdeb3b9000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 256        5000             49.23              44.56  		     0.182516
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 512 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 1747.799000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03d9 PSN 0x9b63d1 RKey 0x200700 VAddr 0x0061798fdf5000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03d9 PSN 0x7dbe98 RKey 0x200700 VAddr 0x005df40b4a6000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 512        5000             99.26              89.68  		     0.183667
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1024 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.879000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03da PSN 0x2553f1 RKey 0x200700 VAddr 0x005b2d1ee3a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03da PSN 0x4fdfd2 RKey 0x200700 VAddr 0x005cf02cf97000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1024       5000             191.12             172.86 		     0.177010
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 2048 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.881000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03db PSN 0x443b82 RKey 0x200700 VAddr 0x0055eebdd6f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03db PSN 0x99e814 RKey 0x200700 VAddr 0x0061e84eda0000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2048       5000             372.74             336.34 		     0.172208
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 4096 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.868000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03dc PSN 0xa1ed6e RKey 0x200700 VAddr 0x005c3ce13e3000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03dc PSN 0x753e0e RKey 0x200700 VAddr 0x005fd4c924f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 4096       5000             731.49             652.69 		     0.167088
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 8192 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.907000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03dd PSN 0x7af5f5 RKey 0x1fff00 VAddr 0x00567222fa5000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03dd PSN 0xc32014 RKey 0x1fff00 VAddr 0x006322b9d51000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8192       5000             1428.14            1249.23		     0.159901
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 16384 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.881000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03de PSN 0xe1650a RKey 0x200000 VAddr 0x005c65373de000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03de PSN 0x7a8e10 RKey 0x200000 VAddr 0x0061d419c51000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 16384      5000             2539.94            2304.62		     0.147495
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 32768 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.858000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03df PSN 0x9ae454 RKey 0x200100 VAddr 0x005e74ef1a8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03df PSN 0x629d9e RKey 0x200100 VAddr 0x0059ca74761000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 32768      5000             4104.04            3729.88		     0.119356
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 65536 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.893000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e0 PSN 0x9799c6 RKey 0x200200 VAddr 0x007b9db912a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e0 PSN 0xa5199a RKey 0x200200 VAddr 0x007d50edee4000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 65536      5000             5912.89            5487.67		     0.087803
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 131072 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3276.342000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e1 PSN 0xc664d RKey 0x200300 VAddr 0x0077529ecb1000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e1 PSN 0x2c7d03 RKey 0x200300 VAddr 0x0073ecfb6d1000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 131072     5000             7778.26            7287.93		     0.058303
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 262144 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3276.343000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e2 PSN 0xe59618 RKey 0x200400 VAddr 0x00736146d7d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e2 PSN 0x72d2c4 RKey 0x200400 VAddr 0x007f9a60a94000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 262144     5000             9080.20            8560.99		     0.034244
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 524288 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.860000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e3 PSN 0xe1692e RKey 0x200500 VAddr 0x0079c107cba000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e3 PSN 0x3602b6 RKey 0x200500 VAddr 0x0079d10037f000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 524288     5000             9953.04            9759.76		     0.019520
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1048576 bytes
+Running iteration 1...
+Test type: ib_write_bw
+Conflicting CPU frequency values detected: 1500.000000 != 3293.870000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: ON		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ CQ Moderation   : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e4 PSN 0x2e85f4 RKey 0x200600 VAddr 0x0073a412893000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e4 PSN 0x46e582 RKey 0x200600 VAddr 0x007852e68ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 1048576    5000             10467.67            10381.73		     0.010382
+---------------------------------------------------------------------------------------
+
+
+
+Running ib_write_lat test...
+Testing message size: 64 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.887000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.886000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e5 PSN 0x63831d RKey 0x1ffebb VAddr 0x005a1fb4e7b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e5 PSN 0x1e7b96 RKey 0x1ff2af VAddr 0x0061e586d34000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 64      1000          2.48           6.10         2.59     	       2.78        	0.13   		3.72    		6.10   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 128 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3276.348000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.876000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e6 PSN 0x82968e RKey 0x1ffebb VAddr 0x0061100e785000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e6 PSN 0x16a4e RKey 0x1ff2af VAddr 0x005b239587b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 128     1000          2.58           7.49         2.72     	       2.84        	0.15   		3.77    		7.49   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 256 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.888000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1496.979000 != 3276.329000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e7 PSN 0xe57a65 RKey 0x1ffebb VAddr 0x0056d939ce2000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e7 PSN 0xeff3b9 RKey 0x1ff2af VAddr 0x00594211d4e000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 256     1000          3.24           7.03         3.39     	       3.47        	0.16   		4.36    		7.03   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 512 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.882000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1671.100000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e8 PSN 0x58a7ab RKey 0x1ffebb VAddr 0x00630dde790000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e8 PSN 0xa64f4c RKey 0x1ff2af VAddr 0x005e25ee8fd000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 512     1000          3.29           7.76         3.39     	       3.50        	0.21   		4.66    		7.76   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1024 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.883000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3283.712000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03e9 PSN 0xe97232 RKey 0x1ffebb VAddr 0x0064bf7258d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03e9 PSN 0xf25b2 RKey 0x1ff2af VAddr 0x0062605464a000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1024    1000          3.43           7.92         3.51     	       3.59        	0.16   		4.13    		7.92   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 2048 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.894000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3181.595000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ea PSN 0xaa594e RKey 0x1ffebb VAddr 0x005f6df42ad000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ea PSN 0x3314ac RKey 0x1ff2af VAddr 0x0062ed2f53d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 2048    1000          3.54           8.53         3.68     	       3.89        	0.25   		5.20    		8.53   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 4096 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.880000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.877000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03eb PSN 0xcc6427 RKey 0x1ffebb VAddr 0x0058a9b32f1000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03eb PSN 0xb2de69 RKey 0x1ff2af VAddr 0x006323a03ab000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 4096    1000          3.66           8.05         4.17     	       4.17        	0.10   		5.13    		8.05   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 8192 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.909000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.889000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ec PSN 0xd4ab84 RKey 0x1ffebb VAddr 0x006120138cf000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ec PSN 0xda4e RKey 0x1ff2af VAddr 0x005b8381598000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 8192    1000          3.92           8.83         4.16     	       4.51        	0.32   		6.08    		8.83   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 16384 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.888000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.864000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ed PSN 0x249d0c RKey 0x1ff4b1 VAddr 0x005b50701b8000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ed PSN 0x979763 RKey 0x1ffebb VAddr 0x005e5cdc871000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 16384   1000          4.42           9.85         4.93     	       4.98        	0.22   		6.18    		9.85   
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 32768 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.105000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3290.816000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ee PSN 0x80fe3e RKey 0x17eaa7 VAddr 0x005aceb1d10000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ee PSN 0xa9c054 RKey 0x1829e3 VAddr 0x0063410b9dc000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 32768   1000          5.87           11.37        6.35     	       6.36        	0.28   		8.13    		11.37  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 65536 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.871000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 1565.777000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03ef PSN 0xfc503a RKey 0x182ae6 VAddr 0x00785183d83000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03ef PSN 0xbaca64 RKey 0x1823e0 VAddr 0x00783ca5477000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 65536   1000          8.72           14.93        9.31     	       9.31        	0.13   		10.31   		14.93  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 131072 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.893000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.880000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03f0 PSN 0x8411e1 RKey 0x1816d3 VAddr 0x0075793e19b000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03f0 PSN 0x49c68a RKey 0x1836f1 VAddr 0x0078c67939d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 131072  1000          14.52          19.64        15.06    	       15.08       	0.21   		16.50   		19.64  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 262144 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.877000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.872000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03f1 PSN 0xf6840e RKey 0x1832ef VAddr 0x0076cd02dbf000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03f1 PSN 0x71c3f2 RKey 0x181edb VAddr 0x007182e70d0000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 262144  1000          26.39          30.15        26.70    	       26.78       	0.21   		28.17   		30.15  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 524288 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.855000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3293.887000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03f2 PSN 0xd4e5c4 RKey 0x1800ba VAddr 0x007e5d5373d000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03f2 PSN 0x2acd03 RKey 0x1816d3 VAddr 0x00748b32f13000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 524288  1000          49.41          53.69        49.56    	       49.70       	0.22   		51.47   		53.69  
+---------------------------------------------------------------------------------------
+
+
+Testing message size: 1048576 bytes
+Running iteration 1...
+Test type: ib_write_lat
+Conflicting CPU frequency values detected: 1500.000000 != 3293.893000. CPU Frequency is not max.
+Conflicting CPU frequency values detected: 1500.000000 != 3000.000000. CPU Frequency is not max.
+---------------------------------------------------------------------------------------
+                    RDMA_Write Latency Test
+ Dual-port       : OFF		Device         : mlx5_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ PCIe relax order: OFF		Lock-free      : OFF
+ ibv_wr* API     : ON		Using DDP      : OFF
+ TX depth        : 1
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 220[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x03f3 PSN 0x753ea0 RKey 0x1801be VAddr 0x0076e0b48ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:50
+ remote address: LID 0000 QPN 0x03f3 PSN 0x69bdc2 RKey 0x17ca87 VAddr 0x0077e5df2ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:10:253:74:54
+---------------------------------------------------------------------------------------
+ #bytes #iterations    t_min[usec]    t_max[usec]  t_typical[usec]    t_avg[usec]    t_stdev[usec]   99% percentile[usec]   99.9% percentile[usec] 
+ 1048576 1000          94.78          99.89        94.84    	       94.90       	0.19   		95.64   		99.89  
+---------------------------------------------------------------------------------------
+
+
+

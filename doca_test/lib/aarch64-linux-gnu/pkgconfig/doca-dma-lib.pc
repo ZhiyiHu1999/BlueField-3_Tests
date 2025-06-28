@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_dma_lib
+Description: Internal-only DOCA pkg-config file. Not for direct use.
+Use doca-dma instead of this file
+Version: 2.10.0087
+Libs: -L${prefix}/lib/aarch64-linux-gnu -ldoca_dma
+Libs.private: -lstdc++
+Cflags: -I${includedir} -DALLOW_EXPERIMENTAL_API

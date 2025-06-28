@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_devemu_lib
+Description: Internal-only DOCA pkg-config file. Not for direct use.
+Use doca-devemu instead of this file
+Version: 2.10.0087
+Libs: -Wl,--as-needed -L${prefix}/lib/aarch64-linux-gnu -ldoca_devemu_pci -ldoca_devemu_virtio_core -ldoca_devemu_virtio_fs
+Libs.private: -lstdc++
+Cflags: -I${includedir} -DALLOW_EXPERIMENTAL_API

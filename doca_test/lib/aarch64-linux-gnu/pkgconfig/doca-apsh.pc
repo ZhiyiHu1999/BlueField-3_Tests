@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_apsh
+Description: DOCA (doca-apsh) pkg-config file.
+Version: 2.10.0087
+Requires: doca-apsh-lib
+Requires.private: glib-2.0, libcrypto, doca-dma, doca-common, yara, libzip
+Libs.private: -L${prefix}/lib/aarch64-linux-gnu -l:libdoca_apsh.a -Wl,--as-needed -lm -pthread
+Cflags: -I${includedir}

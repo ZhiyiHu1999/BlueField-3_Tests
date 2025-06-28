@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_common
+Description: DOCA (doca-common) pkg-config file.
+Version: 2.10.0087
+Requires: doca-common-lib
+Requires.private: libibverbs, libmlx5, libnl-3.0
+Libs.private: -L${prefix}/lib/aarch64-linux-gnu -l:libdoca_common.a -Wl,--as-needed -pthread -lm
+Cflags: -I${includedir}

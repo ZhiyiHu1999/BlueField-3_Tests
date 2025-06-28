@@ -1,0 +1,11 @@
+prefix=/opt/mellanox/doca
+libdir=${prefix}/lib/aarch64-linux-gnu
+includedir=${prefix}/include
+
+Name: doca_devemu
+Description: DOCA (doca-devemu) pkg-config file.
+Version: 2.10.0087
+Requires: doca-devemu-lib
+Requires.private: libflexio, doca-dma, doca-dpa, doca-common, libmlx5, libibverbs
+Libs.private: -L${prefix}/lib/aarch64-linux-gnu -l:libdoca_devemu_virtio_fs.a -l:libdoca_devemu_virtio_core.a -l:libdoca_devemu_pci.a -Wl,--as-needed -lrt
+Cflags: -I${includedir}
