@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "sample.h": "c",
+        "__locale": "cpp",
+        "ios": "cpp",
+        "rdma_common.h": "c",
+        "common_common.h": "c",
+        "aes_gcm_common.h": "c",
+        "pe_common.h": "c",
+        "__node_handle": "c",
+        "stdio.h": "c"
+    }
+}

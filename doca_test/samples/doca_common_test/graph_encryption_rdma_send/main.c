@@ -1,5 +1,4 @@
 // Filename: encrypt_rdma_graph.c
-
 #include <doca_graph.h>
 #include <doca_encryption.h>
 #include <doca_rdma.h>
@@ -7,11 +6,16 @@
 #include <doca_buf_inventory.h>
 #include <doca_mmap.h>
 #include <doca_error.h>
-
 #include <doca_log.h>
 #include <doca_buf.h>
 #include <doca_ctx.h>
 
+#include "sample.h"
+#include "util.h"
+
+#include "common_common.h"
+#include "pe_common.h"
+#include "aes_gcm_common.h"
 #include "rdma_common.h"
 
 #include <stdlib.h>
@@ -249,45 +253,40 @@ int main() {
     ///////////////////
     struct graph_sample_state state = {0};
 
-    doca_pe_create(&state->pe);
-    EXIT_ON_FAILURE(doca_dma_create(state->device, &state->dma[idx]));
-	state->contexts[idx] = doca_dma_as_ctx(state->dma[idx]);
-    doca_pe_connect_ctx(state->pe, state->contexts[idx]);
-	doca_dma_task_memcpy_set_conf(state->dma[idx],
-						      dma_task_completed_callback,
-						      dma_task_completed_callback,
-						      NUM_GRAPH_INSTANCES);
-    doca_ctx_start(state->contexts[i]);
+    EXIT_ON_FAILURE(doca_pe_create(&state->pe));
+    EXIT_ON_FAILURE(doca_rdma_create(state->device, &state->rdma));
+	state->context_rdma = doca_rdma_as_ctx(state->rdma);
+    doca_pe_connect_ctx(state->pe, state->context_rdma);
+    doca_rdma_task_send_set_conf(state->rdma,
+							 send_task_completion_cb,
+							 send_task_error_cb,
+							 1);
+    doca_ctx_start(state->context_rdma);
 
-    union doca_data graph_user_data = {};
-	uint32_t i = 0;
+    /* Create graph nodes and dependency */
     doca_graph_create(state->pe, &state->graph);
-	doca_graph_node_create_from_user(state->graph, user_node_callback, &state->user_node);
-	/* Creating nodes and building the graph */
-	for (i = 0; i < NUM_DMA_NODES; i++) {
-		doca_graph_node_create_from_ctx(state->graph, state->contexts[i], &state->dma_node[i]);
-		/* Setting between the user node and the DMA node */
-		doca_graph_add_dependency(state->graph, state->dma_node[i], state->user_node);
-	}
+	doca_graph_node_create_from_user(state->graph, user_node_callback, &state->node_user);
+    doca_graph_node_create_from_ctx(state->graph, state->context_rdma, &state->node_rdma);
+    doca_graph_add_dependency(state->graph, state->node_rdma, state->node_user);
+    doca_graph_node_create_from_ctx(state->graph, state->context_aes_gcm, &state->node_aes_gcm);
+    doca_graph_add_dependency(state->graph, state->node_aes_gcm, state->node_rdma);
+
 	/* Notice that the sample uses the same callback for success & failure. Program can supply different cb */
 	doca_graph_set_conf(state->graph,
                     graph_completion_callback,
                     graph_completion_callback,
-                    NUM_GRAPH_INSTANCES);
-	graph_user_data.ptr = state;
-	doca_graph_set_user_data(state->graph, graph_user_data);
-	/* Graph must be started before it is added to the work queue. The graph is validated during this call */
-	doca_graph_start(state->graph);
-    
-    struct graph_instance_data *instance = &state->instances[index];
+                    1);
+
+    union doca_data graph_user_data = {};
+    struct graph_instance_data *instance = &state->instance;
 	union doca_data task_user_data = {};
 	union doca_data graph_instance_user_data = {};
-	uint32_t i = 0;
 
-	instance->index = index;
-
+	graph_user_data.ptr = state;
+	EXIT_ON_FAILURE(doca_graph_set_user_data(state->graph, graph_user_data));
+	/* Graph must be started before it is added to the work queue. The graph is validated during this call */
+	EXIT_ON_FAILURE(doca_graph_start(state->graph));
 	EXIT_ON_FAILURE(doca_graph_instance_create(state->graph, &instance->graph_instance));
-
 	/* Use doca_buf_inventory_buf_get_by_data to initialize the source buffer */
 	EXIT_ON_FAILURE(doca_buf_inventory_buf_get_by_data(state->inventory,
 							   state->mmap,
@@ -298,7 +297,7 @@ int main() {
 	instance->source_addr = state->available_buffer;
 	state->available_buffer += DMA_BUFFER_SIZE;
 
-	/* Initialize DMA tasks */
+	/* Initialize AES GCM and RDMA tasks */
 	for (i = 0; i < NUM_DMA_NODES; i++) {
 		doca_buf_inventory_buf_get_by_addr(state->inventory,
 								   state->mmap,
@@ -318,10 +317,12 @@ int main() {
                                 state->dma_node[i],
                                 doca_dma_task_memcpy_as_task(instance->dma_task[i]));
     }
-    doca_graph_instance_set_user_node_data(instance->graph_instance, state->user_node, instance);
 
+    doca_graph_instance_set_user_node_data(instance->graph_instance, state->user_node, instance);
 	graph_instance_user_data.ptr = instance;
 	doca_graph_instance_set_user_data(instance->graph_instance, graph_instance_user_data);
+
+
     doca_graph_instance_submit(state->instances[i].graph_instance);
     (void)doca_pe_progress(state->pe);
 
