@@ -31,7 +31,7 @@ project('DOCA_SAMPLE', 'C', 'CPP',
 	meson_version: '>= 0.61.2'
 )
 
-SAMPLE_NAME = 'graph'
+SAMPLE_NAME = 'graph_encryption_rdma_send'
 
 # Comment this line to restore warnings of experimental DOCA features
 add_project_arguments('-D DOCA_ALLOW_EXPERIMENTAL_API', language: ['c', 'cpp'])
