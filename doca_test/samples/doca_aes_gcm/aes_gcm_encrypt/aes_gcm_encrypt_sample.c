@@ -166,9 +166,9 @@ doca_error_t aes_gcm_encrypt(struct aes_gcm_cfg *cfg, char *file_data, size_t fi
         goto destroy_dst_buf;
     }
 
-    struct timespec start, end;
-    long long duration_ns;
-    clock_gettime(CLOCK_MONOTONIC, &start);
+    // struct timespec start, end;
+    // long long duration_ns;
+    // clock_gettime(CLOCK_MONOTONIC, &start);
 
     /* Submit AES-GCM encrypt task */
     result = submit_aes_gcm_encrypt_task(&resources,
@@ -180,9 +180,9 @@ doca_error_t aes_gcm_encrypt(struct aes_gcm_cfg *cfg, char *file_data, size_t fi
                          cfg->tag_size,
                          cfg->aad_size);
 
-    clock_gettime(CLOCK_MONOTONIC, &end);
-    duration_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
-    DOCA_LOG_INFO("submit_aes_gcm_encrypt_task latency: %lld ns", duration_ns);
+    // clock_gettime(CLOCK_MONOTONIC, &end);
+    // duration_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+    // DOCA_LOG_INFO("submit_aes_gcm_encrypt_task latency: %lld ns", duration_ns);
 
     if (result != DOCA_SUCCESS) {
         DOCA_LOG_ERR("AES-GCM encrypt task failed: %s", doca_error_get_descr(result));

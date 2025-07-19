@@ -618,7 +618,17 @@ doca_error_t submit_aes_gcm_encrypt_task(struct aes_gcm_resources *resources,
 
 	/* Submit encrypt task */
 	resources->num_remaining_tasks++;
+
+    struct timespec start_lat, end_lat;
+    long long duration_lat_ns;
+    clock_gettime(CLOCK_MONOTONIC, &start_lat);
+
 	result = doca_task_submit(task);
+
+    clock_gettime(CLOCK_MONOTONIC, &end_lat);
+    duration_lat_ns = (end_lat.tv_sec - start_lat.tv_sec) * 1000000000LL + (end_lat.tv_nsec - start_lat.tv_nsec);
+    DOCA_LOG_INFO("submit_aes_gcm_encrypt_task latency: %lld ns", duration_lat_ns);
+
 	if (result != DOCA_SUCCESS) {
 		DOCA_LOG_ERR("Failed to submit encrypt task: %s", doca_error_get_descr(result));
 		doca_task_free(task);
@@ -628,10 +638,18 @@ doca_error_t submit_aes_gcm_encrypt_task(struct aes_gcm_resources *resources,
 	resources->run_pe_progress = true;
 
 	/* Wait for all tasks to be completed and context to stop */
+    struct timespec start_ex, end_ex;
+    long long duration_ex_ns;
+    clock_gettime(CLOCK_MONOTONIC, &start_ex);
+
 	while (resources->run_pe_progress) {
 		if (doca_pe_progress(state->pe) == 0)
 			nanosleep(&ts, &ts);
 	}
+
+    clock_gettime(CLOCK_MONOTONIC, &end_ex);
+    duration_ex_ns = (end_ex.tv_sec - start_ex.tv_sec) * 1000000000LL + (end_ex.tv_nsec - start_ex.tv_nsec);
+    DOCA_LOG_INFO("aes_gcm_encrypt_task execution time: %lld ns", duration_ex_ns);
 
 	return task_result;
 }
@@ -683,7 +701,6 @@ doca_error_t submit_aes_gcm_decrypt_task(struct aes_gcm_resources *resources,
 		doca_task_free(task);
 		return result;
 	}
-
 	resources->run_pe_progress = true;
 
 	/* Wait for all tasks to be completed and context to stop */
