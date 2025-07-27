@@ -36,52 +36,9 @@
 #include <doca_log.h>
 
 #include "common.h"
-#include "aes_gcm_common.h"
-#include "rdma_common.h"
+#include "aes_gcm_rdma_send_common.h"
 
 DOCA_LOG_REGISTER(AESGCM_RDMA::::SAMPLE);
-
-/* Configuration struct */
-struct aes_gcm_rdma_send_cfg {
-	char file_path[MAX_FILE_NAME];		      /* File to encrypt/decrypt */
-	char output_path[MAX_FILE_NAME];	      /* Output file */
-	char pci_address[DOCA_DEVINFO_PCI_ADDR_SIZE]; /* Device PCI address */
-	uint8_t raw_key[MAX_AES_GCM_KEY_SIZE];	      /* Raw key */
-	enum doca_aes_gcm_key_type raw_key_type;      /* Raw key type */
-	uint8_t iv[MAX_AES_GCM_IV_LENGTH];	      /* Initialization vector */
-	uint32_t iv_length;			      /* Initialization vector length */
-	uint32_t tag_size;			      /* Authentication tag size */
-	uint32_t aad_size;			      /* Additional authenticated data size */
-	enum aes_gcm_mode mode;			      /* AES-GCM task type */
-
-	char device_name[DOCA_DEVINFO_IBDEV_NAME_SIZE]; /* DOCA device name */
-	char send_string[MAX_ARG_SIZE];			/* String to send */
-	char read_string[MAX_ARG_SIZE];			/* String to read */
-	char write_string[MAX_ARG_SIZE];		/* String to write */
-	char local_connection_desc_path[MAX_ARG_SIZE];	/* Path to save the local connection information */
-	char remote_connection_desc_path[MAX_ARG_SIZE]; /* Path to read the remote connection information */
-	char remote_resource_desc_path[MAX_ARG_SIZE];	/* Path to read/save the remote mmap connection information */
-	bool is_gid_index_set;				/* Is the set_index parameter passed */
-	uint32_t gid_index;				/* GID index for DOCA RDMA */
-	uint32_t num_connections; /* The maximum number of allowed connections, only useful for server for multiple
-				    connection samples */
-	enum doca_rdma_transport_type transport_type; /* RC or DC, RC is the default, only useful for single connection
-							 out-of-band RDMA for now */
-
-	/* The following fields are only related to rdma_cm */
-	bool use_rdma_cm;		       /* Whether test rdma-only or rdma-cm,
-						* Useful for both client and server
-						**/
-	int cm_port;			       /* RDMA_CM server listening port number,
-						* Useful for both client and server
-						**/
-	char cm_addr[SERVER_ADDR_LEN + 1];     /* RDMA_cm server IPv4/IPv6/GID address,
-						* Only useful for client to do its connection request
-						**/
-	enum doca_rdma_addr_type cm_addr_type; /* RDMA_CM server address type, IPv4, IPv6 or GID,
-						* Only useful for client
-						**/
-};
 
 /*
  * Run aes_gcm_encrypt sample
@@ -102,7 +59,7 @@ doca_error_t aes_gcm_encrypt(struct aes_gcm_rdma_send_cfg *cfg, char *file_data,
     char *dst_buffer = NULL;
     uint8_t *resp_head = NULL;
     size_t data_len = 0;
-    char *dump = NULL;
+    // char *dump = NULL;
     FILE *out_file = NULL;
     struct doca_aes_gcm_key *key = NULL;
     doca_error_t result = DOCA_SUCCESS;
@@ -711,3 +668,4 @@ destroy_resources:
 	}
 	return result;
 }
+

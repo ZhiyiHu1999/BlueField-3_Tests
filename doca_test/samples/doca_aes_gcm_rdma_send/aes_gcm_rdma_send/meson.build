@@ -51,6 +51,7 @@ sample_srcs = [
 	# Main function for the sample's executable
 	SAMPLE_NAME + '_main.c',
 	# Common code for the DOCA library samples
+	'../aes_gcm_rdma_send_common.c',
 	# Common code for all DOCA samples
 	'../../common.c',
 	# Common code for all DOCA applications

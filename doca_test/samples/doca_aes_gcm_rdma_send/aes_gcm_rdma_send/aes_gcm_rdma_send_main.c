@@ -8,21 +8,21 @@
 
 #include <utils.h>
 
-#include "aes_gcm_common.h"
-#include "rdma_common.h"
+#include "aes_gcm_rdma_send_common.h"
 // #include "utils.h"
 
 
 DOCA_LOG_REGISTER(AESGCM_RDMA::MAIN);
 
-struct aes_gcm_rdma_send_cfg;
-doca_error_t aes_gcm_encrypt(struct aes_gcm_cfg *cfg, char *file_data, size_t file_size);
-doca_error_t rdma_send(struct rdma_config *cfg);
+doca_error_t aes_gcm_encrypt(struct aes_gcm_rdma_send_cfg *cfg, char *file_data, size_t file_size);
+doca_error_t rdma_send(struct aes_gcm_rdma_send_cfg *cfg);
 
 int main(int argc, char **argv)
 {
     doca_error_t result;
     struct aes_gcm_rdma_send_cfg cfg;
+	char *file_data = NULL;
+	size_t file_size;
     struct doca_log_backend *sdk_log;
     int exit_status = EXIT_FAILURE;
 
@@ -35,10 +35,10 @@ int main(int argc, char **argv)
 	if (result != DOCA_SUCCESS) goto sample_exit;
 
     result = doca_log_backend_create_with_file_sdk(stderr, &sdk_log);
-    if (result != DOCA_SUCCESS) goto exit;
+    if (result != DOCA_SUCCESS) goto sample_exit;
 
     result = doca_log_backend_set_sdk_level(sdk_log, DOCA_LOG_LEVEL_WARNING);
-    if (result != DOCA_SUCCESS) goto exit;
+    if (result != DOCA_SUCCESS) goto sample_exit;
 
     DOCA_LOG_INFO("Starting AES-GCM + RDMA send sample");
 
@@ -46,14 +46,12 @@ int main(int argc, char **argv)
     init_aes_gcm_params(&cfg);
 
     result = doca_argp_init("aesgcm_rdma", &cfg);
-    if (result != DOCA_SUCCESS) goto exit;
+    if (result != DOCA_SUCCESS) goto sample_exit;
 
     result = register_aes_gcm_params();
     if (result != DOCA_SUCCESS) goto argp_cleanup;
 
     /* RDMA ARGP */
-    result = doca_argp_register_params_struct(&cfg, sizeof(struct rdma_config));
-    if (result != DOCA_SUCCESS) goto argp_cleanup;
     result = register_rdma_common_params();
     if (result != DOCA_SUCCESS) goto argp_cleanup;
     result = register_rdma_send_string_param();
@@ -63,22 +61,24 @@ int main(int argc, char **argv)
     result = doca_argp_start(argc, argv);
     if (result != DOCA_SUCCESS) goto argp_cleanup;
 
-    /* AES-GCM Encryption args */
-    result = read_file(cfg.file_path, NULL, NULL); // Just test file exists
+    DOCA_LOG_INFO("ARG Parser Started");
+
+    /* AES-GCM Input File*/
+    result = read_file(cfg.file_path, &file_data, &file_size); // Just test file exists
     if (result != DOCA_SUCCESS) {
         DOCA_LOG_ERR("Input file not found");
         goto argp_cleanup;
     }
 
-    result = aes_gcm_encrypt(&cfg, NULL, 0);
+    DOCA_LOG_INFO("Input File Reading Completed");
+
+    result = aes_gcm_encrypt(&cfg, file_data, file_size);
     if (result != DOCA_SUCCESS) {
         DOCA_LOG_ERR("AES-GCM encryption failed");
         goto argp_cleanup;
     }
 
     /* RDMA send the encrypted file */
-    cfg.send_file_path = encrypted_file_path;
-
     result = rdma_send(&cfg);
     if (result != DOCA_SUCCESS) {
         DOCA_LOG_ERR("RDMA send failed");
@@ -90,6 +90,7 @@ int main(int argc, char **argv)
 
 argp_cleanup:
     doca_argp_destroy();
-exit:
+sample_exit:
     return exit_status;
 }
+
