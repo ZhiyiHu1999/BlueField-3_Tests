@@ -8,6 +8,8 @@
         "aes_gcm_common.h": "c",
         "pe_common.h": "c",
         "__node_handle": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "string.h": "c",
+        "locale": "c"
     }
 }

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "doca_error.h": "c",
+        "doca_aes_gcm.h": "c"
+    }
+}

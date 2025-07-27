@@ -77,8 +77,8 @@ struct aes_gcm_cfg {
 
 /* DOCA AES-GCM resources */
 struct aes_gcm_resources {
-	struct program_core_objects *state; /* DOCA program core objects */
-	struct doca_aes_gcm *aes_gcm;	    /* DOCA AES-GCM context */
+	// struct program_core_objects *state; /* DOCA program core objects */
+	// struct doca_aes_gcm *aes_gcm;	    /* DOCA AES-GCM context */
 	size_t num_remaining_tasks;	    /* Number of remaining AES-GCM tasks */
 	enum aes_gcm_mode mode;		    /* AES-GCM mode - encrypt/decrypt */
 	bool run_pe_progress;		    /* Controls whether progress loop should run */
